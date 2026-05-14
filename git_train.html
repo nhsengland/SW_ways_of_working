@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Sections - Coding Principles</title>
+<title>Sections - Github Training</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -4629,7 +4629,7 @@ vertical-align: -.125em;
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Analytical Process</a></li><li class="breadcrumb-item"><a href="./code_prin_overview.html">Coding Principles</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Analytical Process</a></li><li class="breadcrumb-item"><a href="./git_train.html">Github Training</a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label onclick="window.quartoOpenSearch();">
@@ -4689,13 +4689,13 @@ vertical-align: -.125em;
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./code_prin_overview.html" class="sidebar-item-text sidebar-link active">
+  <a href="./code_prin_overview.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Coding Principles</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./git_train.html" class="sidebar-item-text sidebar-link">
+  <a href="./git_train.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Github Training</span></a>
   </div>
 </li>
@@ -4740,28 +4740,20 @@ vertical-align: -.125em;
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#starting-principles" id="toc-starting-principles" class="nav-link active" data-scroll-target="#starting-principles">Starting principles</a></li>
-  <li><a href="#reproduicbilty" id="toc-reproduicbilty" class="nav-link" data-scroll-target="#reproduicbilty">Reproduicbilty</a></li>
-  <li><a href="#code-primacy-and-version-control" id="toc-code-primacy-and-version-control" class="nav-link" data-scroll-target="#code-primacy-and-version-control">Code primacy and version control</a>
+  <li><a href="#resources" id="toc-resources" class="nav-link active" data-scroll-target="#resources">Resources</a>
   <ul class="collapse">
-  <li><a href="#use-of-sw-git-template" id="toc-use-of-sw-git-template" class="nav-link" data-scroll-target="#use-of-sw-git-template">Use of SW Git Template</a>
-  <ul class="collapse">
-  <li><a href="#efficiency" id="toc-efficiency" class="nav-link" data-scroll-target="#efficiency">Efficiency</a></li>
-  <li><a href="#best-practice-for-accuracy" id="toc-best-practice-for-accuracy" class="nav-link" data-scroll-target="#best-practice-for-accuracy">Best Practice for Accuracy</a></li>
-  <li><a href="#peer-review-collaboration-and-quality-assurance" id="toc-peer-review-collaboration-and-quality-assurance" class="nav-link" data-scroll-target="#peer-review-collaboration-and-quality-assurance">Peer Review, Collaboration and Quality Assurance</a></li>
+  <li><a href="#south-east-team" id="toc-south-east-team" class="nav-link" data-scroll-target="#south-east-team">South East Team</a></li>
+  <li><a href="#microsoft-accredited-training" id="toc-microsoft-accredited-training" class="nav-link" data-scroll-target="#microsoft-accredited-training">Microsoft accredited training</a></li>
   </ul></li>
-  </ul></li>
-  <li><a href="#implementing-modular-design" id="toc-implementing-modular-design" class="nav-link" data-scroll-target="#implementing-modular-design">Implementing Modular Design</a></li>
-  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">Conclusion</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Analytical Process</a></li><li class="breadcrumb-item"><a href="./code_prin_overview.html">Coding Principles</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Analytical Process</a></li><li class="breadcrumb-item"><a href="./git_train.html">Github Training</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Coding Principles</h1>
+<h1 class="title">Github Training</h1>
 </div>
 
 
@@ -4778,98 +4770,20 @@ vertical-align: -.125em;
 </header>
 
 
-<section id="starting-principles" class="level1">
-<h1>Starting principles</h1>
-<p>The combination of Open Code and Reproducible Analytical Pipelines (RAP) represents a shift from traditional “black box” analysis to a transparent, automated, and high-quality way of working with health data.</p>
-<p>Think of a piece of analysis being built with lego blocks. Rather than having to build the same thing repeatedly, the key principle is to have standardised blocks of code that can be reused or easily adapted. Where metrics are reused across several reports, there is a single version of the truth and any changes need to be made source code and then replicated across any reports that use this code.</p>
-<p>The technical benefits of these practices are the gold standard for NHS the <em>South West Intelligence and Insights Team</em>. It is acknowledged that certain time sensitive pieces may not have the complete suite of principles applied, where possible, the highest appropriate standards are met and that an appropriate level of QA has been undertaken before release or publication.</p>
+<section id="resources" class="level1">
+<h1>Resources</h1>
+<section id="south-east-team" class="level2">
+<h2 class="anchored" data-anchor-id="south-east-team">South East Team</h2>
+<p>The South East Team have an excellent practical guide based on use of NHS England Tools.</p>
+<p>This is available here https://nhsengland.github.io/se-da-github-guide/</p>
 </section>
-<section id="reproduicbilty" class="level1">
-<h1>Reproduicbilty</h1>
-<p>It should not be necessary to save data within historical reports. Reports should be distributed as required and SharePoint should not be used to store data or code.</p>
-<p>Pipelines should be written to allow historical reports to be run retrospectively if required, and historical results replicated.</p>
-</section>
-<section id="code-primacy-and-version-control" class="level1">
-<h1>Code primacy and version control</h1>
-<p>Main code storage is on Github. Local repositories should be developed within personal drives and not replicated on SharePoint.</p>
-<div class="callout callout-style-default callout-warning callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Please note
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>SharePoint maintains its own version control and will keep records of code, temporary files, data and outputs.</p>
-<p>Building a project within SharePoint can cause issues as there is a maximum size a folder can contain and this includes old versions.</p>
-<p>Version control is best managed within GitHub.</p>
-</div>
-</div>
-<section id="use-of-sw-git-template" class="level2">
-<h2 class="anchored" data-anchor-id="use-of-sw-git-template">Use of SW Git Template</h2>
-<p>The local SW regional template is a basis any analytical work. It contains a basic structure of laying out your code. The ReadMe also has areas to describe what datasets are utilised, who the report is for, the frequency and any links to ‘<em>Child</em>’ or ‘<em>Parent</em>’ code.</p>
-<p><strong>Parent</strong>: An example would be code that calculated the number of A&amp;E attendances. This code would be the core code that would be reutilised in any report or product that used A&amp;E attendances.</p>
-<p><strong>Child</strong>: A piece of code for an A&amp;E report that utilises the <em>Parent</em> code. For example a dashboard that showed A&amp;E attendances.</p>
-<p>More details on the SW Git template can be found <here></here></p>
-<div class="callout callout-style-default callout-warning callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Please note
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>The SW Template should be ‘forked’ to create a consistent project view.</p>
-</div>
-</div>
-<p>The key benefits of taking this approach are:</p>
-<section id="efficiency" class="level3">
-<h3 class="anchored" data-anchor-id="efficiency">Efficiency</h3>
-<ul>
-<li><strong>Capacity Release:</strong> Analysts are freed from “copy-paste” drudgery to focus on high-value analytical insights and strategic modelling. Core code is written once and shared across other reports.<br>
-</li>
-<li><strong>Speed:</strong> Dashboards and reports become trivial to maintain once the pipeline is built. Changes in base <em>Parent</em> code are changed in a single place and related <em>Child</em> reports are changed based on the source <em>Parent</em> code.</li>
-</ul>
-</section>
-<section id="best-practice-for-accuracy" class="level3">
-<h3 class="anchored" data-anchor-id="best-practice-for-accuracy">Best Practice for Accuracy</h3>
-<ul>
-<li><p><strong>Self-Correction:</strong> Best practice code should include uses automated unit tests to check data for anomalies (e.g., “Is a patient’s age listed as 250?”). Good tests can reduce manual checking and identify issues at an earlier stage in a pipeline.</p></li>
-<li><p><strong>Version Control:</strong> Using Git allows you to “time travel” to see exactly what logic produced a specific figure three years ago and to roll back in case of issue.</p></li>
-</ul>
-</section>
-<section id="peer-review-collaboration-and-quality-assurance" class="level3">
-<h3 class="anchored" data-anchor-id="peer-review-collaboration-and-quality-assurance">Peer Review, Collaboration and Quality Assurance</h3>
-<ul>
-<li><p><strong>Coding standards:</strong> A separate set of coding standards is included as an annex <here></here></p></li>
-<li><p><strong>Open code:</strong> Allows a ‘second pair of eyes’. This is not just around the code itself but the methodology that the code utilised for the analysis. When we statistics on waiting lists or vaccination rates, providing the underlying code allows stakeholders to verify the methodology.</p></li>
-<li><p><strong>The “Goldacre Report”</strong> Legacy: Following the 2022 Goldacre Review, the NHS moved toward “Better, Broader, Safer” data use. This strategy ensures that any analyst can scrutinise the logic behind a health metric, model or KPI. We are able to transparent to show workings and methodology behind a piece of analysis.</p></li>
-<li><p><strong>Knowledge Transfer:</strong> If an analyst leaves the team, their replacement can read the documented code rather than trying to decipher a complex, inherited spreadsheet or process. This QA process should also allow challenge on pieces of unusual code and allow transfer of skills across the team around a method or process.</p></li>
-<li><p><strong>Sharing across regions:</strong> Code and analysis should not be hardcoded to work for only the region. If a piece of work has value to us, it will also have value to other regions or providers. We need to develop a way of working to support cross regional collaboration and sharing of tools and analysis.</p></li>
-</ul>
-<p>Best practice for reproducible analytic pipelines means developing a modular approach to a codebase. A truly effective piece of modular code should satisfy these three principles.</p>
-<ul>
-<li><p><strong>Abstraction:</strong> Code should operate as an independent unit, connected only through well-defined interfaces. In practice, it means that repo documentation is kept up to date and clearly logged when a piece of code is utilised elsewhere. This means that base <strong>Parent</strong> code is kept independent and there are documented links where this code is utilised in other <strong>Child</strong> products.</p></li>
-<li><p><strong>Encapsulation</strong> Each code keeps its data and implementation details private, exposing only what is necessary for the program to function. This prevents your program from forming unexpected dependencies between other pieces of code that create fragile, unmaintainable code. This main principle is to ensure that “hardcoding” is kept to a minimum and if absolutely necessary, the rationale is documented.</p></li>
-<li><p><strong>Cohesion</strong> Every element within a code should work together toward a single purpose. A single piece of code is not meant to perform all functions for your analysis; code chunks should excel at one task rather than attempting to do everything mediocrely.</p></li>
-</ul>
-</section>
-</section>
-</section>
-<section id="implementing-modular-design" class="level1">
-<h1>Implementing Modular Design</h1>
-<p>Remember modular design is not about following rigid rules. Instead, it is about creating a system that is easier to understand, modify, and improve. Make a plan before you start, as once you start coding it is significantly easier to modify a framework than it is to start from scratch. If you do not know where to start, focus on making a code that is easy to read rather than one that is easy to write. The extra effort is worth it.</p>
-<p>Think about the stages of your analytical pipeline. Break things down into, data ingestion, wrangling, visualisation and reporting. Consider if a process that you have built at the data wrangling stage may be reused in a different report or reflect at how visualisation methods could be more standardised and follow best practice.</p>
-</section>
-<section id="conclusion" class="level1">
-<h1>Conclusion</h1>
-<p>Modular programming is not just a nice skill to have, it is a fundamental practice that separates professional grade analysts from amateur projects. By embracing abstraction, encapsulation, and cohesion in your code, we will not just be writing analysis in isolation, we will be developing a robust code base that can grow and serve users for years to come.</p>
+<section id="microsoft-accredited-training" class="level2">
+<h2 class="anchored" data-anchor-id="microsoft-accredited-training">Microsoft accredited training</h2>
+<p>Accredited training by microsoft is accessible via your nhs.net email account.</p>
+<p>The courses can be found here https://learn.microsoft.com/en-us/training/github/</p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
