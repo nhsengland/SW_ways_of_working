@@ -4747,7 +4747,7 @@ vertical-align: -.125em;
    
   <ul>
   <li><a href="#starting-principles" id="toc-starting-principles" class="nav-link active" data-scroll-target="#starting-principles">Starting principles</a></li>
-  <li><a href="#reproduicbilty" id="toc-reproduicbilty" class="nav-link" data-scroll-target="#reproduicbilty">Reproduicbilty</a></li>
+  <li><a href="#reproducibility" id="toc-reproducibility" class="nav-link" data-scroll-target="#reproducibility">Reproducibility</a></li>
   <li><a href="#code-primacy-and-version-control" id="toc-code-primacy-and-version-control" class="nav-link" data-scroll-target="#code-primacy-and-version-control">Code primacy and version control</a>
   <ul class="collapse">
   <li><a href="#use-of-sw-git-template" id="toc-use-of-sw-git-template" class="nav-link" data-scroll-target="#use-of-sw-git-template">Use of SW Git Template</a>
@@ -4790,15 +4790,15 @@ vertical-align: -.125em;
 <p>Think of a piece of analysis being built with lego blocks. Rather than having to build the same thing repeatedly, the key principle is to have standardised blocks of code that can be reused or easily adapted. Where metrics are reused across several reports, there is a single version of the truth and any changes need to be made source code and then replicated across any reports that use this code.</p>
 <p>The technical benefits of these practices are the gold standard for NHS the <em>South West Intelligence and Insights Team</em>. It is acknowledged that certain time sensitive pieces may not have the complete suite of principles applied, where possible, the highest appropriate standards are met and that an appropriate level of QA has been undertaken before release or publication.</p>
 </section>
-<section id="reproduicbilty" class="level1">
-<h1>Reproduicbilty</h1>
+<section id="reproducibility" class="level1">
+<h1>Reproducibility</h1>
 <p>It should not be necessary to save data within historical reports. Reports should be distributed as required and SharePoint should not be used to store data or code.</p>
 <p>Pipelines should be written to allow historical reports to be run retrospectively if required, and historical results replicated.</p>
 </section>
 <section id="code-primacy-and-version-control" class="level1">
 <h1>Code primacy and version control</h1>
 <p>Main code storage is on Github. Local repositories should be developed within personal drives and not replicated on SharePoint.</p>
-<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout callout-style-default callout-important callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
@@ -4808,11 +4808,13 @@ Please note
 </div>
 </div>
 <div class="callout-body-container callout-body">
+<p>Code, data and outputs <em>should not</em> be stored on SharePoint.</p>
+</div>
+</div>
+<p>Old reports and data should not be saved on SharePoint, Drives or Futures as they should be reproducible.</p>
 <p>SharePoint maintains its own version control and will keep records of code, temporary files, data and outputs.</p>
 <p>Building a project within SharePoint can cause issues as there is a maximum size a folder can contain and this includes old versions.</p>
 <p>Version control is best managed within GitHub.</p>
-</div>
-</div>
 <section id="use-of-sw-git-template" class="level2">
 <h2 class="anchored" data-anchor-id="use-of-sw-git-template">Use of SW Git Template</h2>
 <p>The local SW regional template is a basis any analytical work. It contains a basic structure of laying out your code. The ReadMe also has areas to describe what datasets are utilised, who the report is for, the frequency and any links to ‘<em>Child</em>’ or ‘<em>Parent</em>’ code.</p>
