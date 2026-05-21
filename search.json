@@ -73,14 +73,69 @@
     "text": "Best practice for reproducible analytic pipelines means developing a modular approach to a codebase. A truly effective piece of modular code should satisfy these three principles.\n\nAbstraction: Code should operate as an independent unit, connected only through well-defined interfaces. In practice, it means that repo documentation is kept up to date and clearly logged when a piece of code is utilised elsewhere. This means that base Parent code is kept independent and there are documented links where this code is utilised in other Child products.\nEncapsulation Each code keeps its data and implementation details private, exposing only what is necessary for the program to function. This prevents your program from forming unexpected dependencies between other pieces of code that create fragile, unmaintainable code. This main principle is to ensure that “hardcoding” is kept to a minimum and if absolutely necessary, the rationale is documented.\nCohesion Every element within a code should work together toward a single purpose. A single piece of code is not meant to perform all functions for your analysis; code chunks should excel at one task rather than attempting to do everything mediocrely.\n\n\nImplementing Modular Design\nRemember modular design is not about following rigid rules. Instead, it is about creating a system that is easier to understand, modify, and improve. Make a plan before you start, as once you start coding it is significantly easier to modify a framework than it is to start from scratch. If you do not know where to start, focus on making a code that is easy to read rather than one that is easy to write. The extra effort is worth it.\nThink about the stages of your analytical pipeline. Break things down into, data ingestion, wrangling, visualisation and reporting. Consider if a process that you have built at the data wrangling stage may be reused in a different report or reflect at how visualisation methods could be more standardised and follow best practice.\n\n\nConclusion\nModular programming is not just a nice skill to have, it is a fundamental practice that separates professional grade analysts from amateur projects. By embracing abstraction, encapsulation, and cohesion in your code, we will not just be writing analysis in isolation, we will be developing a robust code base that can grow and serve users for years to come."
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "analytical_question.html",
+    "href": "analytical_question.html",
+    "title": "Defining the Analytical Question",
     "section": "",
-    "text": "Site developed to record best practice and ways of working for the SOuth West Insights and Intelligence Team.\nAbout this site - built in quarto - git pages\nTo update a page\nUpdate local version\nPush update page to git\nPublish pages - quart publish gh-pages\nContact details\n\nContributions are welcome or if you wish to contact the team Email: england.swinsightsandintelligence@nhs.net",
+    "text": "Talk with the stakeholder to get a clear picture of the problem they’re trying to solve or the question they need answered.\nPin down the underlying issue the analysis should address, and the decisions or actions the findings will support.\nBuild an understanding of the wider context — objectives, pressures, risks, and what success would look like in terms of solving the problem or answering the question. Outcome: A shared understanding of why the work is needed and how it will be used.",
     "crumbs": [
-      "About",
-      "About"
+      "Analytical Process",
+      "Defining the Analytical Question"
+    ]
+  },
+  {
+    "objectID": "analytical_question.html#understand-the-context-and-purpose",
+    "href": "analytical_question.html#understand-the-context-and-purpose",
+    "title": "Defining the Analytical Question",
+    "section": "",
+    "text": "Talk with the stakeholder to get a clear picture of the problem they’re trying to solve or the question they need answered.\nPin down the underlying issue the analysis should address, and the decisions or actions the findings will support.\nBuild an understanding of the wider context — objectives, pressures, risks, and what success would look like in terms of solving the problem or answering the question. Outcome: A shared understanding of why the work is needed and how it will be used.",
+    "crumbs": [
+      "Analytical Process",
+      "Defining the Analytical Question"
+    ]
+  },
+  {
+    "objectID": "analytical_question.html#define-the-analytical-question",
+    "href": "analytical_question.html#define-the-analytical-question",
+    "title": "Defining the Analytical Question",
+    "section": "Define the analytical question",
+    "text": "Define the analytical question\nTurn the request into a clear, specific analytical question.\nAgree what’s in scope and out of scope:\n\nWho the audience for the analysis is? Understand how comfortable they are with analytical outputs; difference audiences will require their work to be tailored differently. Eg an analyst will have different requirements than a clinician or executive.\n\nTime period (Trend over time, or latest month, last year, etc.)\n\nGeography (PCN, Provider, ICB, Region etc)\n\nPopulation (children, adults, specific cohorts)\n\nSet boundaries and clear parameters to keep the work focused and avoids scope creep.\n\nOutcome: A well‑defined analytical question with an agreed scope.",
+    "crumbs": [
+      "Analytical Process",
+      "Defining the Analytical Question"
+    ]
+  },
+  {
+    "objectID": "analytical_question.html#align-on-constraints-and-expectations",
+    "href": "analytical_question.html#align-on-constraints-and-expectations",
+    "title": "Defining the Analytical Question",
+    "section": "Align on constraints and expectations",
+    "text": "Align on constraints and expectations\nDiscuss the practicalities:\n\nData availability and granularity: It’s important to highlight if you will need to request access to data sets and how long this may take. It is also important to highlight if there are any restraints on data sharing that would mean the outputs can only be shared to certain people or in aggregated forms. Be clear if you need time to check what data exists.\nAny known data quality issues: discuss the limitations this will have on the work you are able to deliver, or the interpretation and output results.\nWhat the final output should look like (report, dashboard, slide deck): Confirm who will be using the outputs and for what purpose.\nDeadlines: agree any interim milestones and the timescales, and the final completed delivery deadline.\n\n\nOutcome: Realistic expectations that match the available data and delivery constraints.",
+    "crumbs": [
+      "Analytical Process",
+      "Defining the Analytical Question"
+    ]
+  },
+  {
+    "objectID": "analytical_question.html#check-understanding-through-playback",
+    "href": "analytical_question.html#check-understanding-through-playback",
+    "title": "Defining the Analytical Question",
+    "section": "Check understanding through playback",
+    "text": "Check understanding through playback\nSummarise the problem, the analytical question, the scope, timelines, and your proposed approach.\nConfirm with stakeholders that you’ve interpreted everything correctly before moving ahead.\n&gt; Outcome: Confidence that everyone is aligned before work begins.",
+    "crumbs": [
+      "Analytical Process",
+      "Defining the Analytical Question"
+    ]
+  },
+  {
+    "objectID": "analytical_question.html#keep-engagement-going",
+    "href": "analytical_question.html#keep-engagement-going",
+    "title": "Defining the Analytical Question",
+    "section": "Keep engagement going",
+    "text": "Keep engagement going\nStay in touch throughout the work — regular check‑ins will help surface new information or constraints early.\nHighlight any risks to delivery, for example if other more urgent tasks come in. Or if access to data is taking longer than anticipated.\nBe prepared to refine the question or approach as things evolve.\nTreat engagement as an ongoing collaboration, not a one-off handover.\n\nOutcome: Continued alignment and reduced risk of rework.",
+    "crumbs": [
+      "Analytical Process",
+      "Defining the Analytical Question"
     ]
   },
   {
@@ -136,6 +191,17 @@
     "crumbs": [
       "Analytical Process",
       "Code Checklist"
+    ]
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Site developed to record best practice and ways of working for the SOuth West Insights and Intelligence Team.\nAbout this site - built in quarto - git pages\nTo update a page\nUpdate local version\nPush update page to git\nPublish pages - quart publish gh-pages\nContact details\n\nContributions are welcome or if you wish to contact the team Email: england.swinsightsandintelligence@nhs.net",
+    "crumbs": [
+      "About",
+      "About"
     ]
   },
   {
