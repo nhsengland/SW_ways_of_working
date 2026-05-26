@@ -136,7 +136,7 @@
     "href": "prov_insights.html#phase-3-delivery-evaluation",
     "title": "Providing Insights from analysis and data",
     "section": "Phase 3: Delivery & Evaluation",
-    "text": "Phase 3: Delivery & Evaluation\nThe construction and styling of all outputs must strictly follow the “Analytical Product Design Guide”.\n\nDesign Principles:\n– Narrative Principles: Lead with the insight, not the data. Keep text concise and action-oriented.\n– Quality over quantity: Keep heavy methodology or data tables in a separate technical appendix.\nQuality assurance:\n– Results: Have data results checked for accuracy by peer\n– Code:  Have code checked by peer and follow code checklist\n– Outputs: Have visualisation and narrative checked for clarity by peer (Refer to team QA standards)",
+    "text": "Phase 3: Delivery & Evaluation\nThe construction and styling of all outputs must strictly follow the “Analytical Product Design Guide”.\n\nDesign Principles:\n– Narrative Principles: Lead with the insight, not the data. Keep text concise and action-oriented.\n– Quality over quantity: Keep heavy methodology or data tables in a separate technical appendix.\nQuality assurance:\n– Results: Have data results checked for accuracy by peer\n– Code: Have code checked by peer and follow code checklist\n– Outputs: Have visualisation and narrative checked for clarity by peer (Refer to team QA standards)",
     "crumbs": [
       "Analytical Process",
       "Providing Insights from analysis and data"
@@ -462,7 +462,51 @@
     "href": "git_train.html",
     "title": "Github Training",
     "section": "",
-    "text": "The South East Team have an excellent practical guide based on use of NHS England Tools.\nThis is available here https://nhsengland.github.io/se-da-github-guide/\n\n\n\nAccredited training by microsoft is accessible via your nhs.net email account.\nThe courses can be found here https://learn.microsoft.com/en-us/training/github/",
+    "text": "National RAP Community of Practice\nhttps://nhsdigital.github.io/rap-community-of-practice/training_resources/git/introduction-to-git/\n\n\n\nLearn the basics of version control with Git, the world’s most popular version control system. This course covers source control, distributed version control systems, and hands-on Git commands\nhttps://learninghub.nhs.uk/resource/63354\n\n\n\nSet up GitHub and GitHub Desktop\nhttps://prototype-kit.service-manual.nhs.uk/guides/github/setup-github-desktop/\n\n\n\nAn introduction to Git and using GitHub using RStudio as an IDE (integrated development environment) using the built in tools within RStudio and also with the packages {gert} and {usethis}\nhttps://www.strategyunitwm.nhs.uk/introduction-git-and-github-rstudio\n\n\n\nThe South East Team have an excellent practical guide based on use of NHS England Tools.\nThis is available here https://nhsengland.github.io/se-da-github-guide/\n\n\n\nAccredited training by microsoft is accessible via your nhs.net email account.\nThe courses can be found here https://learn.microsoft.com/en-us/training/github/",
+    "crumbs": [
+      "Analytical Process",
+      "Github Training"
+    ]
+  },
+  {
+    "objectID": "git_train.html#nhs-rap-introduction-to-git",
+    "href": "git_train.html#nhs-rap-introduction-to-git",
+    "title": "Github Training",
+    "section": "",
+    "text": "National RAP Community of Practice\nhttps://nhsdigital.github.io/rap-community-of-practice/training_resources/git/introduction-to-git/",
+    "crumbs": [
+      "Analytical Process",
+      "Github Training"
+    ]
+  },
+  {
+    "objectID": "git_train.html#learning-hub",
+    "href": "git_train.html#learning-hub",
+    "title": "Github Training",
+    "section": "",
+    "text": "Learn the basics of version control with Git, the world’s most popular version control system. This course covers source control, distributed version control systems, and hands-on Git commands\nhttps://learninghub.nhs.uk/resource/63354",
+    "crumbs": [
+      "Analytical Process",
+      "Github Training"
+    ]
+  },
+  {
+    "objectID": "git_train.html#seting-up-git-and-github",
+    "href": "git_train.html#seting-up-git-and-github",
+    "title": "Github Training",
+    "section": "",
+    "text": "Set up GitHub and GitHub Desktop\nhttps://prototype-kit.service-manual.nhs.uk/guides/github/setup-github-desktop/",
+    "crumbs": [
+      "Analytical Process",
+      "Github Training"
+    ]
+  },
+  {
+    "objectID": "git_train.html#introduction-to-git-and-github-rstudio",
+    "href": "git_train.html#introduction-to-git-and-github-rstudio",
+    "title": "Github Training",
+    "section": "",
+    "text": "An introduction to Git and using GitHub using RStudio as an IDE (integrated development environment) using the built in tools within RStudio and also with the packages {gert} and {usethis}\nhttps://www.strategyunitwm.nhs.uk/introduction-git-and-github-rstudio",
     "crumbs": [
       "Analytical Process",
       "Github Training"
