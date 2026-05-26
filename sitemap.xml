@@ -1,47 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://simon-w-m.github.io/test_web/start_process.html</loc>
-    <lastmod>2026-05-21T13:03:53.460Z</lastmod>
+    <loc>https://github.com/nhsengland/SW_ways_of_working/ts-and-cs.html</loc>
+    <lastmod>2026-05-22T12:46:47.000Z</lastmod>
   </url>
   <url>
-    <loc>https://simon-w-m.github.io/test_web/overview_chart.html</loc>
-    <lastmod>2026-05-12T08:45:42.006Z</lastmod>
+    <loc>https://github.com/nhsengland/SW_ways_of_working/prov_insights.html</loc>
+    <lastmod>2026-05-21T15:29:34.000Z</lastmod>
   </url>
   <url>
-    <loc>https://simon-w-m.github.io/test_web/git_train.html</loc>
-    <lastmod>2026-05-15T08:10:13.580Z</lastmod>
+    <loc>https://github.com/nhsengland/SW_ways_of_working/index.html</loc>
+    <lastmod>2026-05-22T11:48:46.000Z</lastmod>
   </url>
   <url>
-    <loc>https://simon-w-m.github.io/test_web/coding_prin_two.html</loc>
-    <lastmod>2026-05-11T08:09:58.108Z</lastmod>
+    <loc>https://github.com/nhsengland/SW_ways_of_working/git_temp.html</loc>
+    <lastmod>2026-05-11T08:33:42.000Z</lastmod>
   </url>
   <url>
-    <loc>https://simon-w-m.github.io/test_web/analytical_question.html</loc>
-    <lastmod>2026-05-21T14:37:50.757Z</lastmod>
+    <loc>https://github.com/nhsengland/SW_ways_of_working/coding_prin_two.html</loc>
+    <lastmod>2026-05-11T08:09:58.000Z</lastmod>
   </url>
   <url>
-    <loc>https://simon-w-m.github.io/test_web/Code_QA.html</loc>
-    <lastmod>2026-05-12T08:55:40.804Z</lastmod>
+    <loc>https://github.com/nhsengland/SW_ways_of_working/analytical_question.html</loc>
+    <lastmod>2026-05-22T11:48:42.000Z</lastmod>
   </url>
   <url>
-    <loc>https://simon-w-m.github.io/test_web/about.html</loc>
-    <lastmod>2026-05-11T11:07:38.101Z</lastmod>
+    <loc>https://github.com/nhsengland/SW_ways_of_working/about.html</loc>
+    <lastmod>2026-05-11T11:07:38.000Z</lastmod>
   </url>
   <url>
-    <loc>https://simon-w-m.github.io/test_web/code_prin_overview.html</loc>
-    <lastmod>2026-05-21T15:42:25.244Z</lastmod>
+    <loc>https://github.com/nhsengland/SW_ways_of_working/Code_QA.html</loc>
+    <lastmod>2026-05-22T12:50:19.000Z</lastmod>
   </url>
   <url>
-    <loc>https://simon-w-m.github.io/test_web/git_temp.html</loc>
-    <lastmod>2026-05-11T08:33:42.391Z</lastmod>
+    <loc>https://github.com/nhsengland/SW_ways_of_working/LICENCE.html</loc>
+    <lastmod>2026-05-22T13:39:35.000Z</lastmod>
   </url>
   <url>
-    <loc>https://simon-w-m.github.io/test_web/index.html</loc>
-    <lastmod>2026-05-12T10:24:03.569Z</lastmod>
+    <loc>https://github.com/nhsengland/SW_ways_of_working/accessibility.html</loc>
+    <lastmod>2026-05-22T13:43:03.677Z</lastmod>
   </url>
   <url>
-    <loc>https://simon-w-m.github.io/test_web/prov_insights.html</loc>
-    <lastmod>2026-05-21T15:29:34.365Z</lastmod>
+    <loc>https://github.com/nhsengland/SW_ways_of_working/code_prin_overview.html</loc>
+    <lastmod>2026-05-21T15:42:25.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/nhsengland/SW_ways_of_working/contact.html</loc>
+    <lastmod>2026-05-22T12:49:07.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/nhsengland/SW_ways_of_working/git_train.html</loc>
+    <lastmod>2026-05-22T11:48:44.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/nhsengland/SW_ways_of_working/overview_chart.html</loc>
+    <lastmod>2026-05-12T08:45:42.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/nhsengland/SW_ways_of_working/start_process.html</loc>
+    <lastmod>2026-05-21T13:03:53.000Z</lastmod>
   </url>
 </urlset>
