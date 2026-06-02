@@ -114,7 +114,7 @@
     "href": "qa_start.html",
     "title": "Start of QA Process",
     "section": "",
-    "text": "Detail here on tiering\nWhat is required to QA and assure process, method, potential data sources\nWhat document required\nWhere docs to be saved?",
+    "text": "Awaiting document from QA working group\n\nDetail here on tiering\nWhat is required to QA and assure process, method, potential data sources, agreed timelines, scope etc\nWhat document required\nWhere docs to be saved?",
     "crumbs": [
       "Analytical Process",
       "Start of QA Process"
@@ -125,7 +125,7 @@
     "href": "qa_data.html",
     "title": "QA Data and Results",
     "section": "",
-    "text": "Detail on how to check numbers vs national / other published sources\nCheck on calculations / statistical methods etc\nWhat to do if data quality issue is identified (link to DQ work group?)\nWhat paperwork needs to assure process\nWhere is it saved?",
+    "text": "Awaiting document from QA working group\n\nDetail on how to check numbers vs national / other published sources\nCheck on calculations / statistical methods etc\nWhat to do if data quality issue is identified (link to DQ work group?)\nWhat paperwork needs to assure process\nWhere is it saved?",
     "crumbs": [
       "Analytical Process",
       "QA Data and Results"
@@ -616,7 +616,7 @@
     "href": "qa_output.html",
     "title": "QA Output and Review Cycle",
     "section": "",
-    "text": "Final QA of product to see if fit for purpose\nDoes it provide information / insight as specified in scope\nAre visualisations and tables clear and of quality\nWhat paperwork needs to assure process\nWhere is it saved?\nSet up a review\nHow is review recorded and implimented?",
+    "text": "Awaiting document from QA working group\n\nFinal QA of product to see if fit for purpose\nDoes it provide information / insight as specified in scope\nAre visualisations and tables clear and of quality\nWhat paperwork needs to assure process\nWhere is it saved?\nSet up a review\nHow is review recorded and implimented?",
     "crumbs": [
       "Analytical Process",
       "QA Output and Review Cycle"
