@@ -4125,6 +4125,12 @@ font-size: 2.5em;
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="./dq_issues.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Data Quality Issues</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="./prov_insights.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Providing Insights from analysis and data</span></a>
   </div>
@@ -4304,6 +4310,7 @@ font-size: 2.5em;
 </div>
 <div class="callout-body-container callout-body">
 <p>The standards are not mutually exclusive, it would be expected to meet bronze standards as a minimum and achieve as many of the higher standards as appropriate.</p>
+<p>The coding standards are <strong>independent</strong> to the ‘tiering’ of the piece of work. Always try to achieve the highest appropriate coding standards to your work.</p>
 </div>
 </div>
 <section id="bronze-standard" class="level2">
@@ -4313,8 +4320,9 @@ font-size: 2.5em;
 <p>☐ Names used in the code are informative and concise.<br>
 ☐ Names used in the code are explicit, rather than implicit.<br>
 ☐ Code logic is clear and avoids unnecessary complexity.<br>
-• http://adv-r.had.co.nz/Style.html<br>
-• https://peps.python.org/pep-0008/ • https://docs.telemetry.mozilla.org/concepts/sql_style</p>
+• <a href="http://adv-r.had.co.nz/Style.html">http://adv-r.had.co.nz/Style.html</a><br>
+• [https://peps.python.org/pep-0008/ ] (https://peps.python.org/pep-0008/)<br>
+• <a href="https://docs.telemetry.mozilla.org/concepts/sql_style">https://docs.telemetry.mozilla.org/concepts/sql_style</a></p>
 </section>
 <section id="code-documentation" class="level3">
 <h3 class="anchored" data-anchor-id="code-documentation">Code documentation</h3>
@@ -4341,7 +4349,7 @@ font-size: 2.5em;
 <p>☐ Credentials and other secrets are not written in code but are configured as environment variables or input separately.<br>
 ☐ Configuration is stored in a dedicated configuration file, separate to the code.<br>
 ☐ Required passwords, secrets and tokens are documented, but are stored outside of version control.<br>
-• https://cran.r-project.org/web/packages/httr/vignettes/secrets.html</p>
+• <a href="https://cran.r-project.org/web/packages/httr/vignettes/secrets.html">https://cran.r-project.org/web/packages/httr/vignettes/secrets.html</a></p>
 </section>
 <section id="peer-review" class="level3">
 <h3 class="anchored" data-anchor-id="peer-review">Peer review</h3>
@@ -4382,22 +4390,23 @@ font-size: 2.5em;
 <section id="testing" class="level3">
 <h3 class="anchored" data-anchor-id="testing">Testing</h3>
 <p>☐ The whole process is tested from start to finish using one or more realistic end-to-end tests.<br>
-• https://r-pkgs.org/testing-basics.html</p>
+• <a href="https://r-pkgs.org/testing-basics.html">https://r-pkgs.org/testing-basics.html</a></p>
 </section>
 <section id="code-style" class="level3">
 <h3 class="anchored" data-anchor-id="code-style">Code Style</h3>
 <p>☐ Code follows a standard style<br>
-• https://www.python.org/dev/peps/pep-0008/<br>
-• https://google.github.io/styleguide/Rguide.html<br>
-• https://style.tidyverse.org/ for R.<br>
-• https://docs.telemetry.mozilla.org/concepts/sql_style</p>
+• [https://www.python.org/dev/peps/pep-0008/](https://www.python.org/dev/peps/pep-0008/)<br>
+• [https://google.github.io/styleguide/Rguide.html](https://google.github.io/styleguide/Rguide.html)<br>
+• <a href="https://style.tidyverse.org">https://style.tidyverse.org/</a><br>
+• <a href="https://docs.telemetry.mozilla.org/concepts/sql_style">https://docs.telemetry.mozilla.org/concepts/sql_style</a></p>
 </section>
 <section id="documentation" class="level3">
 <h3 class="anchored" data-anchor-id="documentation">Documentation</h3>
 <p>☐ Python code is documented using docstrings. R code is documented using <code>roxygen2</code> comments.<br>
-• https://www.python.org/dev/peps/pep-0257/ • https://cran.r-project.org/web/packages/roxygen2/vignettes/roxygen2.html<br>
+• <a href="https://www.python.org/dev/peps/pep-0257">https://www.python.org/dev/peps/pep-0257</a><br>
+• <a href="https://cran.r-project.org/web/packages/roxygen2/vignettes/roxygen2.html">https://cran.r-project.org/web/packages/roxygen2/vignettes/roxygen2.html</a><br>
 ☐ Human-readable (preferably HTML) documentation is generated automatically from code documentation.<br>
-☐ Documentation is hosted for easy access. GitHub Pages https://pages.github.com/ and Read the Docs https://readthedocs.org/ provide a free service for hosting documentation publicly.<br>
+☐ Documentation is hosted for easy access. GitHub Pages <a href="https://pages.github.com/">https://pages.github.com/</a> and Read the Docs <a href="https://readthedocs.org/">https://readthedocs.org/</a> provide a free service for hosting documentation publicly.<br>
 ☐ Instructions for how to cite the project are given.</p>
 </section>
 <section id="version-control-1" class="level3">
@@ -4406,18 +4415,19 @@ font-size: 2.5em;
 ☐ Committing standards are followed such as appropriate commit summary and message supplied.<br>
 ☐ Commits are tagged at significant stages. This is used to indicate the state of code for specific releases or model versions.<br>
 ☐ Input data are versioned. All changes to the data result in new versions being created, or changes are recorded as new records<br>
-• https://en.wikipedia.org/wiki/Slowly_changing_dimension</p>
+• <a href="https://en.wikipedia.org/wiki/Slowly_changing_dimension">https://en.wikipedia.org/wiki/Slowly_changing_dimension</a></p>
 </section>
 <section id="publishing" class="level3">
 <h3 class="anchored" data-anchor-id="publishing">Publishing</h3>
 <p>☐ Published outputs meet accessibility regulations<br>
-• https://analysisfunction.civilservice.gov.uk/area_of_work/accessibility/</p>
+• <a href="https://analysisfunction.civilservice.gov.uk/area_of_work/accessibility/">https://analysisfunction.civilservice.gov.uk/area_of_work/accessibility/</a></p>
 </section>
 <section id="project-management-1" class="level3">
 <h3 class="anchored" data-anchor-id="project-management-1">Project management</h3>
 <p>☐ Outputs from your analysis are disposable and are regularly deleted and regenerated while analysis develops. Your analysis code is able to reproduce them at any time.<br>
 ☐ Misuse or failure in the code produces informative error messages.<br>
-☐ Quality assurance standards and processes for the project are defined. These are based around the quality assurance of code for analysis and research guidance document: • https://best-practice-and-impact.github.io/qa-of-code-guidance/intro.html).</p>
+☐ Quality assurance standards and processes for the project are defined. These are based around the quality assurance of code for analysis and research guidance document:<br>
+• <a href="https://best-practice-and-impact.github.io/qa-of-code-guidance/intro.html">https://best-practice-and-impact.github.io/qa-of-code-guidance/intro.html</a></p>
 </section>
 <section id="testing-1" class="level3">
 <h3 class="anchored" data-anchor-id="testing-1">Testing</h3>

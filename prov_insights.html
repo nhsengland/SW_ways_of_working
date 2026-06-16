@@ -169,6 +169,12 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="./dq_issues.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Data Quality Issues</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="./prov_insights.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Providing Insights from analysis and data</span></a>
   </div>
@@ -310,13 +316,13 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li><p><strong>Mandatory QA:</strong> Quality Assurance is continuous. Peer review and data validation must occur prior to any interpretation or final delivery to ensure statistical and output integrity.</p></li>
 <li><p><strong>Methodological Standards:</strong> All analysis should align with appropriate standards such as NHSE ‘Making Data Count’ (SPC), standardising rates by populations when comparing ICBs, applying seasonal adjustments and NHS Data Model &amp; Dictionary standards to ensure a single version of the truth etc.</p></li>
-<li><p><strong>Signal over Noise:</strong> Focus entirely on actionable insights (e.g., Special Cause Variation) rather than describing “Common Cause” noise or providing a “data tour.”</p></li>
-<li><p><strong>Referential Integrity:</strong> This process must be used in conjunction with the Analytical Product Design Guide and ‘Defining the Analysis Question’.</p></li>
+<li><p><strong>Signal over Noise:</strong> Focus entirely on actionable insights (e.g., Special Cause Variation) rather than describing “Common Cause” noise or providing a “data tour.” A report or analysis should be a call to action, and idealiy provide recommendations for enquiry.</p></li>
+<li><p><strong>Referential Integrity:</strong> This process must be used in conjunction with the <a href="https://nhsengland.github.io/analytical-data-style-guide-SW/reporting_corecomponents/">Analytical Product Design Guide</a> and ‘Defining the Analytical Question’.</p></li>
 </ul>
 </section>
 <section id="phase-1-framing-pre-requisites" class="level2">
 <h2 class="anchored" data-anchor-id="phase-1-framing-pre-requisites">Phase 1: Framing &amp; Pre-Requisites</h2>
-<p>Before any data work begins, analysts must follow the steps outlined in the document: “Developing and Defining the Analysis Question”</p>
+<p>Before any data work begins, analysts must follow the steps outlined in the document: “Defining the Analytical Question”</p>
 <ul>
 <li><p><strong>Key Requirements:</strong> Understand the context, pin down the underlying issue, and identify the specific audience literacy level.</p></li>
 <li><p><strong>Request Categorisation:</strong> Use the Strategic, Tactical, or Operational Decision Tree as a guide to define the “altitude” of the request. This ensures the chosen methodology and delivery frequency (e.g., real-time, monthly, adhoc) match the decision-maker’s needs.</p></li>
@@ -367,7 +373,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="phase-2-the-core-analysis-insight" class="level2">
 <h2 class="anchored" data-anchor-id="phase-2-the-core-analysis-insight">Phase 2: The Core Analysis &amp; Insight</h2>
-<p>(Data extraction, validation, and preparation should be completed prior to beginning Phase 2).</p>
+<p>Data extraction, validation, and preparation should be completed prior to beginning Phase 2. This undergo an appropriate quality assurance process.</p>
 <section id="analytical-exploration" class="level3">
 <h3 class="anchored" data-anchor-id="analytical-exploration">1. Analytical Exploration</h3>
 <p>Move beyond descriptive data (what happened) into diagnostic and predictive analysis (why it happened and what is likely to happen next).</p>
@@ -387,6 +393,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <div class="callout-body-container callout-body">
 <p>The ‘Key Point’ Rule: Avoid describing every data point. Highlight only statistically significant exceptions and drivers.</p>
+<p>The key purpose of any chart should be to be to provide insight, not merely illustrate the data.</p>
 </div>
 </div>
 <ul>
@@ -414,7 +421,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="phase-3-delivery-evaluation" class="level2">
 <h2 class="anchored" data-anchor-id="phase-3-delivery-evaluation">Phase 3: Delivery &amp; Evaluation</h2>
-<p>The construction and styling of all outputs must strictly follow the “Analytical Product Design Guide”.</p>
+<p>The construction and styling of all outputs must strictly follow the <a href="https://nhsengland.github.io/analytical-data-style-guide-SW/reporting_corecomponents/">Analytical Product Design Guide</a>.</p>
 <ul>
 <li><p><strong>Design Principles:</strong><br>
 – <strong>Narrative Principles:</strong> Lead with the insight, not the data. Keep text concise and action-oriented.<br>
@@ -434,7 +441,7 @@ ul.task-list li input[type="checkbox"] {
 – If the product is project-specific, define the date it will be taken offline.<br>
 – If the product is ongoing, schedule a 6-month usage audit to ensure it is still driving action.<br>
 – If usage has ceased, proactively decommission the product to prevent ineffective legacy products.</p></li>
-<li><p><strong>Output:</strong> Entry into the team’s Impact Log and lessons learnt. Ensure the log categorises how the insight added value (e.g., identifying outliers, improved patient safety, time saved, resource savings) to easily demonstrate the team’s impact.</p></li>
+<li><p><strong>Output:</strong> Entry into the team’s Impact Log and lessons learnt. Ensure the log categorises how the insight added value (e.g., identifying outliers, improved patient safety, time saved, resource savings) to easily demonstrate the team’s impact. <em>(To be developed.)</em></p></li>
 </ul>
 
 
