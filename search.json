@@ -136,7 +136,7 @@
     "href": "overview_chart.html",
     "title": "Overview",
     "section": "",
-    "text": "An overview of the analytical process\nHOLDING CHART\nNot Final!!!!!!!!!\n\n\n\n\n\nflowchart TD\n  A(Mapping Current Process) --&gt; B(Building Automated Pipelines)\n  B --&gt; C(Building the right team of teams / resources)\n  C --&gt; D(Sourcing Best Data)\n  D --&gt; E(Use of style guide)\n  E --&gt; F(Visualisations that are Insightful)",
+    "text": "An overview of the analytical process\nHOLDING CHART\nThis chart is simply a placeholder. Real flowchart will come once analyical process document has been completed.\n\n\n\n\n\nflowchart TD\n  A(Starting the Analytical Process) --&gt; B(QA Data and Results)\n  A --&gt; C[Defining the anlytical question]\n  A --&gt; D[Start of QA Process]\n  B -----&gt; E(Final product and review)\n  B --&gt; G[Coding Principles]\n  G --&gt; H[GitHub Training]\n  G --&gt; I[QA Code Checklist]\n  H --&gt; J[Github Template]\n  E --&gt; K[QA Output and Review]\n  K --&gt; L(Review)",
     "crumbs": [
       "Analytical Process",
       "Overview"
