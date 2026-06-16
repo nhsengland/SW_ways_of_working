@@ -5,6 +5,7 @@
 
 This repository holds code for the ways of working guidance webpages.
 
+[https://nhsengland.github.io/SW_ways_of_working/](https://nhsengland.github.io/SW_ways_of_working/)
 
 
 ### Report/Code Overview
@@ -45,7 +46,7 @@ To clone the repo:
 
 
 ### Usage
-Site built in markdown
+Site built in markdown and quarto
 
 #### Outputs
 Github webpages
