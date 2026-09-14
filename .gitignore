@@ -928,3 +928,8 @@ FodyWeavers.xsd
 .RData
 .httr-oauth
 .quarto
+
+/.quarto/
+
+**/*.quarto_ipynb
+.positai
