@@ -4107,12 +4107,6 @@ font-size: 2.5em;
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./overview_chart.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Overview</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
   <a href="./start_process.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Starting the Analytical Process</span></a>
   </div>
@@ -4247,7 +4241,10 @@ font-size: 2.5em;
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#starting-principles" id="toc-starting-principles" class="nav-link active" data-scroll-target="#starting-principles">Starting principles</a></li>
+  <li><a href="#starting-principles" id="toc-starting-principles" class="nav-link active" data-scroll-target="#starting-principles">Starting principles</a>
+  <ul class="collapse">
+  <li><a href="#rationale" id="toc-rationale" class="nav-link" data-scroll-target="#rationale">Rationale</a></li>
+  </ul></li>
   <li><a href="#reproducibility" id="toc-reproducibility" class="nav-link" data-scroll-target="#reproducibility">Reproducibility</a></li>
   <li><a href="#code-primacy-and-version-control" id="toc-code-primacy-and-version-control" class="nav-link" data-scroll-target="#code-primacy-and-version-control">Code primacy and version control</a>
   <ul class="collapse">
@@ -4288,10 +4285,32 @@ font-size: 2.5em;
 <section id="starting-principles" class="level1">
 <h1>Starting principles</h1>
 <p>The combination of Open Code and Reproducible Analytical Pipelines (RAP) represents a shift from traditional “black box” analysis to a transparent, automated, and high-quality way of working with health data.</p>
+<p>Github should underpin each and every piece of work so that processes, code and documentation are stored in a consistent way. A piece of work with appropriate levels of description can then be searched for in one place. It would also be in one place so that if old old piece of code needs to repeated or built upon, there is a single place to search.</p>
+<p>Github saves projects in a ‘<strong>repository’</strong> or often shortened to’<strong>repo’</strong>. A repo may contain sub folders and allows for multiple document types to be saved.</p>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Important</span>Important
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>It is a key principle that real data should not be saved in a repo.</p>
+<p>However, it is good practice to include dummy data so that anyone wishing to replicate your work has some test data to work with.</p>
+</div>
+</div>
+<p>The use of the SW template, ensures that all repositories are documented in a standard fashion.</p>
+<p>It is recognised that not all work requires a full and detailed development cycle, it may be a simple <em>ad hoc</em> request, however it is still import to document the process and save code, in case of additional questions or validation or scrutiny.</p>
+<p>Github should be used from the outset of a project, to document code and processes, branching can be used for development and version control(see Github Training). Repos should be synced regularly.</p>
+<section id="rationale" class="level2">
+<h2 class="anchored" data-anchor-id="rationale">Rationale</h2>
 <p>Think of a piece of analysis being built with lego blocks. Rather than having to build the same thing repeatedly, the key principle is to have standardised blocks of code that can be reused or easily adapted. Where metrics are reused across several reports, there is a single version of the truth and any changes need to be made source code and then replicated across any reports that use this code.</p>
 <p>This process highlights best practice but it is understood that not all pieces of analysis would fall under this methodology. Where possible we should be using the best and sustainable practices, that are reusable, open to audit and transparent.</p>
 <p>The underlying principle is if someone has developed some code to create a forecast, then this code should be able to be shifted to another dataset. If there is code to calculate a KPI, that same code should be utilised across various products so that the same version of the truth is used.</p>
 <p>The technical benefits of these practices are the gold standard for NHS the <em>South West Intelligence and Insights Team</em>. It is acknowledged that certain time sensitive pieces may not have the complete suite of principles applied, where possible, the highest appropriate standards are met and that an appropriate level of QA has been undertaken before release or publication.</p>
+</section>
 </section>
 <section id="reproducibility" class="level1">
 <h1>Reproducibility</h1>

@@ -148,12 +148,6 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./overview_chart.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Overview</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
   <a href="./start_process.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Starting the Analytical Process</span></a>
   </div>
@@ -339,9 +333,10 @@ ul.task-list li input[type="checkbox"] {
 <p>Before any data work begins, analysts must follow the steps outlined in the document: “Defining the Analytical Question”</p>
 <ul>
 <li><p><strong>Key Requirements:</strong> Understand the context, pin down the underlying issue, and identify the specific audience literacy level.</p></li>
-<li><p><strong>Request Categorisation:</strong> Use the Strategic, Tactical, or Operational Decision Tree as a guide to define the “altitude” of the request. This ensures the chosen methodology and delivery frequency (e.g., real-time, monthly, adhoc) match the decision-maker’s needs.</p></li>
+<li><p><strong>Request Categorisation:</strong> Use the Strategic, Tactical, or Operational <em>Example Decision Table</em> as a guide to define the “altitude” of the request. This ensures the chosen methodology and delivery frequency (e.g., real-time, monthly, adhoc) match the decision-maker’s needs.</p></li>
 <li><p><strong>Playback:</strong> Ensure a summary of the problem, scope, and timelines is played back to the stakeholder to confirm alignment before proceeding.</p></li>
 </ul>
+<p><strong>Example Decision Table</strong></p>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 25%">
@@ -351,36 +346,30 @@ ul.task-list li input[type="checkbox"] {
 </colgroup>
 <thead>
 <tr class="header">
-<th>Feature</th>
-<th>Strategic</th>
-<th>Tactical</th>
-<th>Operational</th>
+<th>Type of analysis</th>
+<th>Primary goal</th>
+<th>Analytic Focus</th>
+<th>NHS Framework</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Primary Goal</td>
+<td>Strategic</td>
 <td>Sustainability &amp; Policy</td>
-<td>Efficiency &amp; Targets</td>
-<td>Safety &amp; Patient Flow</td>
+<td>Scenario Modelling</td>
+<td>Long Term Plan / ICB Strategy</td>
 </tr>
 <tr class="even">
-<td>Analytical Focus</td>
-<td>Scenario Modelling</td>
-<td>SPC &amp; Variation</td>
-<td>Exception Spotting</td>
+<td>Tactical</td>
+<td>Efficiency &amp; Targets</td>
+<td>Making Data Count (SPC)</td>
+<td>Interactive Dashboard</td>
 </tr>
 <tr class="odd">
-<td>NHS Framework</td>
-<td>Long Term Plan / ICB Strategy</td>
-<td>Making Data Count (SPC)</td>
+<td>Operational</td>
+<td>Safety &amp; Patient Flow</td>
+<td>Exception Spotting</td>
 <td>Daily SitReps / Safety Huddles</td>
-</tr>
-<tr class="even">
-<td>Ideal Output</td>
-<td>Executive Briefing / R-Markdown</td>
-<td>Interactive Dashboard (PBI/Tableau)</td>
-<td>Live Tracker / Automated Alert</td>
 </tr>
 </tbody>
 </table>
@@ -411,10 +400,10 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 <ul>
-<li><p><strong>Deep-Dive Methodology (Root Cause Analysis):</strong> Use Driver Trees or the “Five Whys” to move past the first obvious correlation and identify the root cause.</p></li>
+<li><p><strong>Deep-Dive Methodology (Root Cause Analysis):</strong> Use <a href="https://www.nhselect.nhs.uk/resources/5966/Driver-diagram-template">Driver Trees</a> or the “<a href="https://www.england.nhs.uk/improvement-hub/wp-content/uploads/sites/44/2015/08/learning-handbook-five-whys.pdf">Five Whys</a>” to move past the first obvious correlation and identify the root cause.</p></li>
 <li><p><strong>Bias Check:</strong> Actively test alternative hypotheses. Ask: “What else could explain this trend?” to avoid confirmation bias.</p></li>
 <li><p><strong>Contextual Validation:</strong> Triangulate local findings using the NHS Model Health System or GIRFT data frameworks. Determine if an exception is unique to the service or mirrors a wider national trend.</p></li>
-<li><p><strong>Advanced Modelling:</strong> Depending on the “altitude” of the question (refer to the Decision Tree), apply Forecasting, Trend Analysis, Segmentation, or Demand and Capacity Modelling to provide a predictive view of future requirements.</p></li>
+<li><p><strong>Advanced Modelling:</strong> Depending on the “altitude” of the question (refer to the <em>Example Decision Table</em>), apply Forecasting, Trend Analysis, Segmentation, or Demand and Capacity Modelling to provide a predictive view of future requirements.</p></li>
 <li><p><strong>Provide insight:</strong> Understand what the stakeholder’s decisions and trigger points are. A dashboard should be like a car and tell you immediately that you have an oil pressure problem. The front end does not have to show everything.</p></li>
 <li><p><strong>Call to action:</strong> Understand from stakeholder what they are going to do with the information and what decisions it is going to influence. A good piece of analysis should inform a call to action.</p></li>
 </ul>
@@ -425,7 +414,7 @@ ul.task-list li input[type="checkbox"] {
 <p>Ensure your communication of the insights is tailored to the audience. Consider their analytical knowledge and expertise, the level of explanation may differ depending on who the audience is.</p>
 <ul>
 <li><p><strong>Context &amp; Caveats:</strong> Explicitly state the strengths of the analytical approach, any data quality (DQ) issues, and the limitations of the data. Suggest further work if required.</p></li>
-<li><p><strong>The Insight Structure:</strong><br>
+<li><p><strong>Insight Structure:</strong><br>
 – <strong>The Issue:</strong> A brief reminder of the analytical question.<br>
 – <strong>The Evidence:</strong> What the data reveals (what is happening and why).<br>
 – <strong>The Impact:</strong> Why it matters (what happens if nothing changes).<br>
