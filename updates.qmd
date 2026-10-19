@@ -1,0 +1,30 @@
+---
+title: "Page updates"
+---
+
+## To update a page    
+
+Ensure you have the latest version of the pages that match those on Github
+
+To do this click **Pull**
+
+This will update 
+
+
+Update local version of .qmd and save
+
+Click on **Git** tab in R studio
+
+Click on staged file you wish to update.  
+
+Click **Push** update page to git
+
+This process updates the underlying qmd files
+
+You will then need to update the rendered HTML pages
+
+Yo do click click on the **Terminal** and type
+
+quarto publish gh-pages
+
+
