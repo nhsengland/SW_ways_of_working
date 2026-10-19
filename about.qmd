@@ -12,8 +12,6 @@ Update local version
 
 Push update page to git
 
-zz
-
 Publish pages - quart publish gh-pages
 
 Contact details
