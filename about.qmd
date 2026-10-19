@@ -8,6 +8,8 @@ About this site - built in quarto - git pages
 
 To update a page    
 
+zz
+
 Update local version
 
 Push update page to git
