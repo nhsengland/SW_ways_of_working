@@ -6,7 +6,7 @@ title: "Accessibility commitment"
 Return to [home page](/) or [about page](/about).
 
 Inspired from Silvia Canelón's [commitment to accessibility](https://silviacanelon.com/accessibility) The South West Insights and Intelligence Team welcomes feedback on the accessibility of this site and any links to its materials including code and training materials.
-We have used the [Web Accessibility Evaluation Tool](https://wave.webaim.org/) to manually check for accessibility errors and corrected where possible.
+We have used the [Web Accessibility Evaluation Tool](https://wave.webaim.org/) to manually check for accessibility errors and corrected.
 
 # Reporting accessibility problems with this website
 

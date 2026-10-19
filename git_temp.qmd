@@ -12,7 +12,7 @@ editor: visual
 
 The template has been designed to help you document your work, provide some basic protection for data in the .gitignore file and contain standard licences and a basic open code checklist.
 
-The full completed QA log should also be saved here.  (Pending)
+The full completed QA log should also be saved here. (Pending)
 
 ::: {.callout-warning appearance="default" icon="true"}
 ## Important
@@ -24,9 +24,9 @@ If you do accidentally upload data, please notify the github maintainer [jonatha
 
 ## Location and guidance
 
-You can find a copy of the repository here [https://github.com/nhsengland/SWRegionTemplate](https://github.com/nhsengland/SWRegionTemplate)
+You can find a copy of the repository here <https://github.com/nhsengland/SWRegionTemplate>
 
-You will need to be a member of the NHS England organisation in order to use the team space. For information on how to join the NHS England organisation go to [https://github.com/nhsengland](https://github.com/nhsengland)
+You will need to be a member of the NHS England organisation in order to use the team space. For information on how to join the NHS England organisation go to <https://github.com/nhsengland>
 
 ::: {.callout-tip appearance="default" icon="true"}
 ## Please note
@@ -41,9 +41,9 @@ Once you are a member of the organisation, you will need to be added to the regi
 ::: {.callout-tip appearance="default" icon="true"}
 ## Please note
 
-Each of the .md files can be opened and edited in any text editor. It is also possible to edit them directly on the github webite. They are markdown files and you can include diagrams, pictures, tables and various formatting.
+Each of the .md files can be opened and edited in any text editor. It is also possible to edit them directly on the github website. They are markdown files and you can include diagrams, pictures, tables and various formatting.
 
-Further details can be found here[ https://www.markdownguide.org/]( https://www.markdownguide.org/)
+Further details can be found here <https://www.markdownguide.org/>
 :::
 
 ### .gitignore
@@ -56,7 +56,7 @@ Examples of file types included in the .gitignore are
 
 If you do wish to upload one of these file types, please ensure it only contains synthetic data and manually change the .ignore to allow a specified file.
 
-Further detail on how to do this can be found at [https://docs.github.com/en/get-started/git-basics/ignoring-files](https://docs.github.com/en/get-started/git-basics/ignoring-files)
+Further detail on how to do this can be found at <https://docs.github.com/en/get-started/git-basics/ignoring-files>
 
 ### CHANGELOG.md
 
@@ -72,29 +72,27 @@ This is another generic file to be included in each repository. It includes a ba
 
 ### LICENCE
 
-This sets the default licence as open source MIT licence. This means your code is open and free to use by anyone to use, copy, modify, publish or distribute without limitation.
+This sets the default licence as open-source MIT licence. This means your code is open and free to use by anyone to use, copy, modify, publish or distribute without limitation.
 
-This licence should cover most work, unless there is a specific reason otherwise. This licence does have leagal ramifications.
+This licence should cover most work, unless there is a specific reason otherwise. This licence does have legal ramifications.
 
-For more information about licences go to [https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository)
+For more information about licences go to <https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository>
 
 ### OPEN_CODE_CHECKLIST.md
 
-This is a basic quality assurance template for published code. This is in addition to other quality assurance that has been conducted on your code, and covers specific issues around publishing your code.
+This is a basic quality assurance template for published code. This is in addition to other quality assurance that has been conducted on your code and covers specific issues around publishing your code.
 
-It is split between mandatory and optional recommendations. Please enure all mandatory sections are complied with.
+It is split between mandatory and optional recommendations. Please ensure compliance with all mandatory sections.
 
 ### README.md
 
 Second to your code this is the most important part of your code documentation.
 
-It is designed for you to complete each section to include a standardised way of documentmenting, what the code, is, what it is for, and any dependancies.
-
-The README specifies report in a number of secions but th
+It is designed for you to complete each section to include a standardised way of documenting, what the code is, what it is for, and any dependencies.
 
 #### About the report
 
-This is a place to give a brief overview of what the code or report is.
+This is a place to give a brief overview of the code or report.
 
 ::: {.callout-tip appearance="default" icon="true"}
 ## Please note
@@ -104,21 +102,21 @@ If the report is underdevelopment, it is good practice to include the experiment
 
 #### Report/Code Overview
 
-**Status:** Active / Retired / In development
+**Status:** Active / Retired / In development.
 
-**Subject area:** Specific subject area
+**Subject area:** Specific subject area.
 
-**Purpose:** Decribe what the report does
+**Purpose:** Describe what the report does.
 
-**Audience:** Decribe who the report is for
+**Audience:** Describe who the report is for
 
-**Frequency:** How often is the report refreshed
+**Frequency:** How often is the report refreshed.
 
-**Output type:** Slides, powerBI, tableau, markdown, excel, PDF, etc
+**Output type:** Slides, PowerBI, Tableau, Markdown, Excel, PDF, etc.
 
-**Distribution:** How is the report shared
+**Distribution:** How is the report iss shared.
 
-**Quality assurance:** When have code review and output QA checks been undertaken
+**Quality assurance:** When have code review and output QA checks have been undertaken.
 
 #### Built With
 
@@ -128,7 +126,7 @@ List main packages (and versions) used to build project.
 
 #### Getting Started
 
-This include basic details on how to clone the report and any other major technical support or requirements.
+This includes basic details on how to clone the report and any other major technical support or requirements.
 
 #### Outputs
 
@@ -136,19 +134,19 @@ Description of output, ie format, dataset etc
 
 #### Datasets
 
-List of datasets used. Include URLs, UDAL references or any other pertinant details.
+List of datasets used. Include URLs, UDAL references or any other pertinent details.
 
-#### Dependancies or parent code
+#### Dependencies or parent code
 
-Links to any other code depedancies that are used within this code
+Links to any other code dependencies that are used within this code
 
-#### Dependants or child code
+#### Dependents or child code
 
-Links to any other code dependants that use this code
+Links to any other code dependents that use this code
 
 #### Test data
 
-Link to any synthetic or test data that can be used to run a verion of this project.
+Link to any synthetic or test data that can be used to run a version of this project.
 
 Include instructions of how to load data rather than run SQL results in the project.
 
@@ -164,4 +162,4 @@ Unless stated otherwise, the codebase is released under the MIT Licence. This co
 
 #### Contact
 
-Contact detail of the team or indivudal repsonsonsible for the project.
+Contact detail of the team or individual irresponsible for the project.
