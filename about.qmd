@@ -8,7 +8,11 @@ About this site - built in quarto - git pages
 
 To update a page    
 
-Update local version
+Update local version and save
+
+Click on Git tab
+
+Click on staged file you wish to update.  
 
 Push update page to git
 
