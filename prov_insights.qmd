@@ -3,7 +3,11 @@ title: "Providing Insights from analysis and data"
 editor: visual
 ---
 
+<<<<<<< Updated upstream
 > **Aim:** To deliver high-quality, consistent insights that drive decision-making, whilst moving away from reactive reporting workflows.
+=======
+> **Aim:** To deliver high-quality, consistent insights that drive decision-making, while moving away from reactive reporting workflows.
+>>>>>>> Stashed changes
 
 ## Overarching Principles
 
