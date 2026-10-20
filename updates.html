@@ -75,6 +75,9 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script src="site_libs/quarto-diagram/mermaid.min.js"></script>
+<script src="site_libs/quarto-diagram/mermaid-init.js"></script>
+<link href="site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
 
 <link rel="stylesheet" href="styles.css">
@@ -89,9 +92,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">
-      Sections
-      </li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./about.html">About</a></li><li class="breadcrumb-item"><a href="./updates.html">Page updates</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -201,12 +202,53 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
- <span class="menu-text">Coding standards</span></a>
+ <span class="menu-text">Quality Assurance</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./qa_intro.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Introduction to Quality Assurance Process</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./qa_tiers.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Step 1: Identify Process “Tier”</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./qa_actions.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Step 2 QA Actions</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./qa_output_proc.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Step 3 Identify Output ‘Tier’</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./qa_roles.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">QA roles and responsibilities</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true">
+ <span class="menu-text">Coding standards</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./code_prin_overview.html" class="sidebar-item-text sidebar-link">
@@ -235,13 +277,13 @@ ul.task-list li input[type="checkbox"] {
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true">
  <span class="menu-text">About</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./about.html" class="sidebar-item-text sidebar-link">
@@ -272,6 +314,12 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Contact us</span></a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./updates.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Page updates</span></a>
+  </div>
+</li>
       </ul>
   </li>
     </ul>
@@ -284,14 +332,20 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#to-update-a-page" id="toc-to-update-a-page" class="nav-link active" data-scroll-target="#to-update-a-page">To update a page</a></li>
+  <li><a href="#to-begin" id="toc-to-begin" class="nav-link active" data-scroll-target="#to-begin">To begin</a></li>
+  <li><a href="#the-structure" id="toc-the-structure" class="nav-link" data-scroll-target="#the-structure">The structure</a>
+  <ul class="collapse">
+  <li><a href="#yaml" id="toc-yaml" class="nav-link" data-scroll-target="#yaml">YAML</a></li>
+  <li><a href="#qmd-files" id="toc-qmd-files" class="nav-link" data-scroll-target="#qmd-files">.qmd Files</a></li>
+  </ul></li>
+  <li><a href="#to-update-a-page" id="toc-to-update-a-page" class="nav-link" data-scroll-target="#to-update-a-page">To update a page</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./about.html">About</a></li><li class="breadcrumb-item"><a href="./updates.html">Page updates</a></li></ol></nav>
 <div class="quarto-title">
 <h1 class="title">Page updates</h1>
 </div>
@@ -310,12 +364,46 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<p>These are basic instructions on how to update these pages.</p>
+<section id="to-begin" class="level2">
+<h2 class="anchored" data-anchor-id="to-begin">To begin</h2>
+<p>Make a local copy of the Github</p>
+<p>Choose <strong>New Project</strong> and select the option <strong>version control</strong> then <strong>Git</strong> and add the URL of the repo <em>https://github.com/nhsengland/SW_ways_of_working</em> and choose a local folder to save your version.</p>
+</section>
+<section id="the-structure" class="level2">
+<h2 class="anchored" data-anchor-id="the-structure">The structure</h2>
+<section id="yaml" class="level3">
+<h3 class="anchored" data-anchor-id="yaml">YAML</h3>
+<p>The YAML is the main file that deals with the overall layout. There should be no major reason to adjust the YAML. Perhaps if you are adding a new page or section.</p>
+</section>
+<section id="qmd-files" class="level3">
+<h3 class="anchored" data-anchor-id="qmd-files">.qmd Files</h3>
+<p>These are the raw pages of code that generate the pages.</p>
+<p>Formatting these files can be done via ‘Visual’ tab on the main code pane, standard markdown formatting <a href="https://www.markdownguide.org/cheat-sheet/">Cheat sheet</a> or via HTML tags.</p>
+<p>It is possible to include R and python code within these pages to build charts and tables.</p>
+</section>
+</section>
 <section id="to-update-a-page" class="level2">
 <h2 class="anchored" data-anchor-id="to-update-a-page">To update a page</h2>
-<p>Ensure you have the latest version of the pages that match those on Github</p>
+<p>Ensure you have the latest version of the pages that match those on Github.</p>
+<p>Click on <strong>Git</strong> tab in R studio</p>
+<p><img src="gitsnip.png" class="img-fluid"></p>
 <p>To do this click <strong>Pull</strong></p>
-<p>This will update</p>
-<p>Update local version of .qmd and save</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Tip
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>If this your first time connecting, it may ask for username and password. This may open in a new window, which sometimes sits behind other programs, please check your task bar.</p>
+</div>
+</div>
+<p>This will update your local files and sync them to the master on Github</p>
+<p>Update your local version of the .qmd file and save</p>
 <p>Click on <strong>Git</strong> tab in R studio</p>
 <p>Click on staged file you wish to update.</p>
 <p>Click <strong>Push</strong> update page to git</p>
@@ -323,6 +411,22 @@ ul.task-list li input[type="checkbox"] {
 <p>You will then need to update the rendered HTML pages</p>
 <p>Yo do click click on the <strong>Terminal</strong> and type</p>
 <p>quarto publish gh-pages</p>
+<div class="cell" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<pre class="mermaid mermaid-js">flowchart LR
+A[Pull] --&gt; B[Update .qmd]
+B --&gt; C[Commit]
+C --&gt; D[Push]
+
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
 
 
 </section>
