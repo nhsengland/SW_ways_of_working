@@ -23,12 +23,11 @@ Visualisations should be clear and focus on providing the insight rather than si
 
 Using this standard [SOP template](https://nhs.sharepoint.com/:w:/r/sites/InsightsIntelligenceteam/Shared%20Documents/01%20-%20Analysis/10%20-%20Data%20%26%20Infrastructure/04%20-%20Reporting%20%26%20Publications/01%20-%20Product%20Catalogue/SOP%20Template%20-%20Master.docx?d=wc5adcc742e3b47ceb819ef34ccecc153&csf=1&web=1&e=e2qh2c) ensures our shared expertise, from data sources and permission paths to version control and update procedures, is clear, repeatable, and accessible to everyone.
 
-This documentation connects directly to our [Master Product Catalogue](https://nhs.sharepoint.com/:x:/r/sites/InsightsIntelligenceteam/Shared%20Documents/01%20-%20Analysis/10%20-%20Data%20%26%20Infrastructure/04%20-%20Reporting%20%26%20Publications/01%20-%20Product%20Catalogue/Master%20Product%20Catalogue.xlsx?d=w71133a761b3147d49904c215d94bfbcd&csf=1&web=1&e=oJ8Zbs). While the catalogue serves as the central inventory of what we deliver, each SOP provides the essential guide for how that specific output is built, refreshed, and maintained. 
+This documentation connects directly to our [Master Product Catalogue](https://nhs.sharepoint.com/:x:/r/sites/InsightsIntelligenceteam/Shared%20Documents/01%20-%20Analysis/10%20-%20Data%20%26%20Infrastructure/04%20-%20Reporting%20%26%20Publications/01%20-%20Product%20Catalogue/Master%20Product%20Catalogue.xlsx?d=w71133a761b3147d49904c215d94bfbcd&csf=1&web=1&e=oJ8Zbs). While the catalogue serves as the central inventory of what we deliver, each SOP provides the essential guide for how that specific output is built, refreshed, and maintained.
 
-Each of us should take active ownership of our processes: keep your documentation fresh using our standardised naming rules, refine it as workflows evolve, and ensure the catalogue is updated with direct links to your SOPs. 
+Each of us should take active ownership of our processes: keep your documentation fresh using our standardised naming rules, refine it as workflows evolve, and ensure the catalogue is updated with direct links to your SOPs.
 
 Clear documentation safeguards our resilience, reduces avoidable errors, and enables every team member to step in and support one another with ease.
- 
 
 ## Review cycle
 
@@ -36,9 +35,9 @@ Once a product is complete and has been signed off for production, a review date
 
 This should check the product is being used, is fit for purpose or requires any updates.
 
-Reviews should be conducted at a an early stage and time between reviews extended over time as the product reaches full maturity. 
+Reviews should be conducted at a an early stage and time between reviews extended over time as the product reaches full maturity.
 
-This information should be documented in the product SOP under the Impact & Stakeholder Value Review section. 
+This information should be documented in the product SOP under the Impact & Stakeholder Value Review section.
 
 ## Lessons Learned
 
