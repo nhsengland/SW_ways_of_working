@@ -3,12 +3,14 @@ title: "Start of QA Process"
 editor: visual
 ---
 
-> **Awaiting document from QA working group**
+Before starting a piece of analysis, you should run a requirement analysis and consider how you are going to provide insights to support the request.  This is a great place to start the quality assurance process and discuss your proposed methodology with your peers to ensure that:
 
-*Detail here on tiering*
+* You are using an appropriate method
 
-*What is required to QA and assure process, method, potential data sources, agreed timelines, scope etc*
+* Confirm that what you are considering will meet the requirements
 
-*What documentation is required?*
+* Understand if there is wider support from the team to support your analysis
 
-*Where docs to be saved?*
+Getting an appropriate peer review at this stage, allows for wider team planning and for any required support to be assigned. It means that the scope of the analysis can be defined and timelines, outputs and methods can be assured from the start. 
+
+

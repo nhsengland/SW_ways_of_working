@@ -1,0 +1,39 @@
+---
+title: "Introduction to Quality Assurance Process"
+editor: visual
+---
+
+
+This analytical **Quality Assurance** (QA) process is designed to ensure we have consistency in the way that analysis and outputs are assured for accuracy, reliability and value.
+
+It is designed to be light-touch: there are clear principles that apply to everything we do, and with a proportionate approach.
+
+The principles should be applied to all work, although the level of input and sign-off required is based on a tiered, risk-based assessment.
+
+It is important to ensure that there is a clear distinction between level of process (High/Medium/Low) and assurance of the outputs (Gold/Silver/Bronze).
+
+### Process
+
+With regards to the process it will help to ensure products:
+
+- Met the requirements set out
+
+- Are contextual and aligned with wider priorities and factors
+
+- Are representative of our team’s identity, and contribute effectively to the sum of our output
+
+- Provide the most value possible
+
+- Can be maintained or reproduced with resilience
+
+### Outputs
+
+With regards to the outputs it will help to ensure that:
+
+- The accuracy and any limitations are known
+
+- The degree of reliability the analysis has is known
+
+- The level of confidence in using this analysis a stakeholder should have is known
+
+- This process is expected to evolve over time and will flex and adapt as required

@@ -1,0 +1,32 @@
+---
+title: "Step 3 Identify Output 'Tier'"
+editor: visual
+---
+
+:::{style="background-color: #d4af37; corder-radius: 5px; padding: 20px;"}
+### GOLD - A complete and reliable output that can be used with confidence
+
+The evidence is strong, the reasoning is sound, and any important assumptions, uncertainties or limitations are clearly explained. A decision-maker should not need to do substantial additional analysis before relying on it.  
+
+*Example:* The data is good quality, the analysis has been thoroughly checked, and there are no known issues that would materially affect the conclusion.
+:::
+
+---
+
+:::{style="background-color: #c0c0c0; corder-radius: 5px; padding: 20px;"}
+### SILVER A useful and broadly reliable output, but with some caveats
+
+The analysis provides a sound basis for understanding the question, but there are some gaps, uncertainties or data issues that should be considered. Some additional checking or interpretation may be needed before using it for an important decision.
+
+*Example:* There are some known data-quality issues that reduce confidence in the findings, but the overall analysis remains useful.
+:::
+
+---
+
+:::{style="background-color: #c79b56; corder-radius: 5px; padding: 20px;"}
+### BRONZE A useful first-cut output that needs further work
+
+The analysis highlights relevant findings or patterns, but there are important gaps, limitations or uncertainties. It should be treated as a starting point for further analysis rather than as a final answer.
+
+*Example:* A quick analysis using data with known quality issues, without the more thorough checks or statistical analysis needed to support a firm conclusion
+:::

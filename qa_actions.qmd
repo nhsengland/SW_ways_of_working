@@ -1,0 +1,35 @@
+---
+title: "Step 2 QA Actions"
+editor: visual
+---
+
+This is a non exhaustive list of the types of actions covered in quality assurance.  Higher tiers should include checks from lower stages.
+
+### Low (to be carried by peer review)
+
+- Overall ‘sense checks’/spot-checking including conditional formatting and formulas
+- Narrative is clear, concise and answers the question asked. Spelling/grammar is professional
+- Styling is consistent with team style guide
+- Key information is documented – such as source, dates etc.
+- Any statements referencing numbers are true and accurate
+- Compare recently produced figures to historic QA figures, by cross checking results against other data sources available
+- Inclusion of the QA information at the front of the report/product cover page or meta data
+- Inclusion of QA Output level with appropriate caveats (Gold/Silver/Bronze)
+
+### Medium (to be carried out by peer, with line manager or equivalent oversight)
+
+- Appropriate checking of data sources / wider contextual factors
+- Review of code/syntax where relevant (GitHub recommended). Review of calculations / formula
+- Analytical/statistical methods are appropriately selected, applied and interpreted
+
+### High (to be carried out by peer, with line manager oversight and SLT sign-off)
+
+- Complete verification of source data against available information or appropriate QA statement from data provider to give assurance of quality
+- Gold checks should be undertaken by two or more analysts not involved in the creation of the original analysis.
+- Sufficient time should be allocated to a project, for completion of ‘Gold’ standard checks.
+
+::: {.callout-important appearance="default" icon="true"}
+## Important
+
+Note for any analysis being sent to Execs this should be reviewed by SLT regardless of tier.
+:::

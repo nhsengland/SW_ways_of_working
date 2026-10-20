@@ -1,0 +1,15 @@
+{
+  "hash": "92e80392745f464b76740b24065e359d",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"qa_tiers\"\neditor: visual\n---\n\n## STEP 1: Identify Process “Tier”\n\nProcess Levels – Examples, non-exhaustive list; If in doubt, please discuss with your line manager/SLT Key indicator of the correct tier is the audience / purpose, rather than the type / nature of work\n\n```{=html}\n<style>\ndiv.blue {background-colour: #e6f0ff; border-radius: 5px; padding: 20px;}\n</style>\n```\n\n::: blue\ntest\n:::\n\n\n::: {.cell}\n\n```{.r .cell-code}\n#e6f0ff\n```\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

@@ -1,0 +1,7 @@
+---
+title: "QA roles and responsibilities"
+editor: visual
+---
+
+
+![](qa_flow.png)

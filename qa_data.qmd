@@ -3,14 +3,14 @@ title: "QA Data and Results"
 editor: visual
 ---
 
-> **Awaiting document from QA working group**
+At this stage initial results should be checked against any equivalent national or published sources.  For bespoke analysis, checks that the methodology is sounds and returns are feasible.  Where possible create unit tests and push edges cases through the analysis.
 
-*Detail on how to check numbers vs national / other published sources*
+This is a good stage to document methods used and start building SOP guidance around the methods.
 
-*Check on calculations / statistical methods etc*
+If any data quality issues are identified at this stage ensure that they are logged as part of the process.
 
-*What to do if data quality issue is identified (link to DQ page)?*
+Further detail on the process can be found in the quality assurance annex.
 
-*What paperwork needs to assure process?*
+A good peer review check of initial results and linking these back to the product specification will help when it comes to product design and visualisation design.
 
-*Where is it saved where?*
+

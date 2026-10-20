@@ -3,20 +3,17 @@ title: "QA Output and Review Cycle"
 editor: visual
 ---
 
-> **Awaiting document from QA working group**
+This is the final stage of checking output and product.
 
-*Final QA of product to see if fit for purpose*
+A peer review check to ensure that the product provides insight and converys the information it is designed to in the best possible format.  Having fresh eyes on a report to ensure that any message or data is clear and not subject to misinterpretation. 
 
-*Does it provide information / insight as specified in scope*
+Linking the product back to the scope and ensuring that it provides the information or insight as specified within the initial scope. This includes accessibility of products, clarity of visualisations and quality of narrative.
 
-*Are visualisations and tables clear and of quality*
+At this stage the full Standard Operating Procedure should be complete and also form part of the final quality assurance.
 
-*What paperwork needs to assure process*
+Outputs should be saved to or linked from the appropriate section of the team NHS Future Page.
 
-*Where is it saved?*
+Code should be reviewed and saved within GitHub and all documentation completed. 
 
-*Set up a review*
+For ongoing work, the automation process should be documented and a review set for when the product should undergo review.
 
-*How is review recorded and implemented?*
-
-*Any lessons learned added to log*

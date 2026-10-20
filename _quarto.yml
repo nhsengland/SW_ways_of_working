@@ -26,6 +26,13 @@ website:
           - qa_data.qmd
           - review.qmd
           - qa_output.qmd
+      - section: "Quality Assurance"
+        contents:
+          - qa_intro.qmd
+          - qa_tiers.qmd
+          - qa_actions.qmd
+          - qa_output_proc.qmd
+          - qa_roles.qmd
       - section: "Coding standards"
         contents:      
           - code_prin_overview.qmd
@@ -39,6 +46,7 @@ website:
           - ts-and-cs.qmd
           - LICENCE.qmd
           - contact.qmd
+          - updates.qmd
     tools: 
       - icon: github
         menu: 
