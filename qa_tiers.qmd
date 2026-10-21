@@ -5,52 +5,52 @@ editor: visual
 
 ## Process Levels
 
-Examples, non-exhaustive list; If in doubt, please discuss with your line manager / SLT 
+Examples, non-exhaustive list; If in doubt, please discuss with your line manager / SLT
 
 Key indicator of the correct tier is the audience / purpose, rather than the type / nature of work
 
-:::{style="background-color: #bee5b0; corder-radius: 5px; padding: 20px;"}
-### **HIGH**
-Any information to be published, put into the public domain or used by the media / NHSE communications teams  
+::: {style="background-color: #bee5b0; corder-radius: 5px; padding: 20px;"}
+### HIGH
 
-Data / reports / dashboards potentially accessible by a wide audience through a ‘front door’ platform (such as through FutureNHS / FDP landing page, etc.)  
+Any information to be published, put into the public domain or used by the media / NHSE communications teams
 
-Freedom of Information Request / Information required for parliamentary questions  
+Data / reports / dashboards potentially accessible by a wide audience through a ‘front door’ platform (such as through FutureNHS / FDP landing page, etc.)
 
-Data or analysis to be used for strategic, operational or policy-making decisions  
+Freedom of Information Request / Information required for parliamentary questions
 
-Data to be used for financial purposes or investment in services  
+Data or analysis to be used for strategic, operational or policy-making decisions
 
-**Key consideration: Moderate/Severe** risk of harm if used for decision-making. Would have a negative reputational impact on the organisation or I&I,  should incorrect / misleading information be shared
+Data to be used for financial purposes or investment in services
 
+**Key consideration: Moderate/Severe** risk of harm if used for decision-making. Would have a negative reputational impact on the organisation or I&I, should incorrect / misleading information be shared
 :::
 
----
+------------------------------------------------------------------------
 
-:::{style="background-color: #fdfd96; corder-radius: 5px; padding: 20px;"}
-### **MEDIUM**
-Changes to existing routine reports / dashboards (previously gold QA) e.g. new measures developed or changes in data sources  
+::: {style="background-color: #fdfd96; corder-radius: 5px; padding: 20px;"}
+### MEDIUM
 
-Analysis for internal stakeholder use where likely to be shared externally (but within the NHS), such as to support performance or programme conversations, data quality improvements etc  
+Changes to existing routine reports / dashboards (previously gold QA) e.g. new measures developed or changes in data sources
 
-Analysis where additional complexity, such as statistical methodology or forecasting, is present  
+Analysis for internal stakeholder use where likely to be shared externally (but within the NHS), such as to support performance or programme conversations, data quality improvements etc
 
-**Key consideration: Minor** risk of harm if used for decision-making. Would have a negative reputational impact on I&I colleagues, should incorrect / misleading information be shared  
+Analysis where additional complexity, such as statistical methodology or forecasting, is present
 
+**Key consideration: Minor** risk of harm if used for decision-making. Would have a negative reputational impact on I&I colleagues, should incorrect / misleading information be shared
 :::
 
----
+------------------------------------------------------------------------
 
-:::{style="background-color: #b2e1f5; corder-radius: 5px; padding: 20px;"}
-### **LOW**
-All regular updates and refreshes to established, routine work (where previously silver or gold) with no significant changes to previous iterations. This includes regular QA-ing of fully automated processes  
+::: {style="background-color: #ffffcc; corder-radius: 5px; padding: 20px;"}
+### LOW
 
-Suitable for internal audiences where data is used for headline figures for meetings, initial findings and approximate calculations (doesn’t necessitate high level of QA or data was needed in short time, so comprehensive QA was not possible)  Please make it clear on the reports sent out, that a comprehensive QA was not possible at the time of sending  
+All regular updates and refreshes to established, routine work (where previously silver or gold) with no significant changes to previous iterations. This includes regular QA-ing of fully automated processes
 
-‘First Cut’ data produced for meetings, to inform discussion and clarification from team members or stakeholders  
+Suitable for internal audiences where data is used for headline figures for meetings, initial findings and approximate calculations (doesn’t necessitate high level of QA or data was needed in short time, so comprehensive QA was not possible) Please make it clear on the reports sent out, that a comprehensive QA was not possible at the time of sending
 
-Work shared with other analysts to showcase work and for training purposes  
+‘First Cut’ data produced for meetings, to inform discussion and clarification from team members or stakeholders
+
+Work shared with other analysts to showcase work and for training purposes
 
 **Key considerations: Negligible** risk of harm if used for decision-making. Would have a negative reputational impact for the analyst, if incorrect / misleading information be shared
-
 :::
