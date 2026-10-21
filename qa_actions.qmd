@@ -3,7 +3,7 @@ title: "Step 2 QA Actions"
 editor: visual
 ---
 
-This is a non exhaustive list of the types of actions covered in quality assurance.  Higher tiers should include checks from lower stages.
+This is a non exhaustive list of the types of actions covered in quality assurance. Higher tiers should include checks from lower stages.
 
 ### Low (to be carried by peer review)
 
@@ -31,5 +31,5 @@ This is a non exhaustive list of the types of actions covered in quality assuran
 ::: {.callout-important appearance="default" icon="true"}
 ## Important
 
-Note for any analysis being sent to Execs this should be reviewed by SLT regardless of tier.
+Note for any analysis being sent to senior colleagues (executives and other senior managers) this should be reviewed by SLT regardless of tier.
 :::
