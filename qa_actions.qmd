@@ -5,7 +5,7 @@ editor: visual
 
 This is a non exhaustive list of the types of actions covered in quality assurance. Higher tiers should include checks from lower stages.
 
-### Low (to be carried by peer review)
+### Low (to be carried out by peer review)
 
 - Overall ‘sense checks’/spot-checking including conditional formatting and formulas
 - Narrative is clear, concise and answers the question asked. Spelling/grammar is professional
