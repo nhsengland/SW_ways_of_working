@@ -27,7 +27,7 @@ Data to be used for financial purposes or investment in services
 
 ------------------------------------------------------------------------
 
-::: {style="background-color: #fdfd96; corder-radius: 5px; padding: 20px;"}
+::: {style="background-color: #a7c7e7; corder-radius: 5px; padding: 20px;"}
 ### MEDIUM
 
 Changes to existing routine reports / dashboards (previously gold QA) e.g. new measures developed or changes in data sources
