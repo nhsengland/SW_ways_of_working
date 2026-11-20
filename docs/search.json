@@ -37,7 +37,7 @@
     "href": "updates.html#to-update-a-page",
     "title": "Page updates",
     "section": "To update a page",
-    "text": "To update a page\nEnsure you have the latest version of the pages that match those on Github.\nClick on Git tab in R studio\n\nTo do this click Pull\n\n\n\n\n\n\nTip\n\n\n\nIf this your first time connecting, it may ask for username and password. This may open in a new window, which sometimes sits behind other programs, please check your task bar.\n\n\nThis will update your local files and sync them to the master on Github\nUpdate your local version of the .qmd file and save\nClick on Git tab in R studio\nClick on staged file you wish to update.\nClick Push update page to git\nThis process updates the underlying qmd files\nYou will then need to update the rendered HTML pages\nYo do click click on the Terminal and type\nquarto publish gh-pages\n\n\n\n\n\nflowchart LR\nA[Pull] --&gt; B[Update .qmd]\nB --&gt; c[Commit]\nC --&gt; D[Push]",
+    "text": "To update a page\nEnsure you have the latest version of the pages that match those on Github.\nClick on Git tab in R studio\n\nTo do this click Pull\n\n\n\n\n\n\nTip\n\n\n\nIf this your first time connecting, it may ask for username and password. This may open in a new window, which sometimes sits behind other programs, please check your task bar.\n\n\nThis will update your local files and sync them to the master on Github\nUpdate your local version of the .qmd file and save\nClick on Git tab in R studio\nClick on staged file you wish to update.\nClick Push update page to git\nThis process updates the underlying qmd files\nYou will then need to update the rendered HTML pages\nYo do click click on the Terminal and type\nquarto publish gh-pages\n\n\n\n\n\nflowchart LR\nA[Pull] --&gt; B[Update .qmd]\nB --&gt; C[Commit]\nC --&gt; D[Push]",
     "crumbs": [
       "About",
       "Page updates"
@@ -53,45 +53,67 @@
   {
     "objectID": "review.html",
     "href": "review.html",
-    "title": "Final product and review",
+    "title": "Final product, SOP and review",
     "section": "",
     "text": "The final product should be checked that it meets the needs of the original request. This should be done via peer review and also checked with any main stakeholders.\nMore detailed quality assurance is outlined in the QA process, but products to should meet the basic criteria of providing the information required, methods assured, code reviewed, outputs checked against other appropriate data sources and produced with use the of the style guide.\nVisualisations should be clear and focus on providing the insight rather than simply illustrating data. Distinction should be made between products that are made to provide information and those that are designed to provide insight.\nInformation Products: should provide clear navigation of splits of data, if used to provide comparisons, effort should be made to reduce the number of traces on a graph, to ensure columns are ordered, appropriate types of visualisations are utilised. Robust statistical methods should be used to identify trends and outliers.\nReport Products: should focus on analysis and insight into the data. Visualisations should have purpose and be used to support insights. These reports should be kept targeted and linked to information products for further information. Report products should aim to provide recommendations and insights that led to action.\nHybrid Products: it is possible to do both, with a clear summary that provides an overview as well as detail that can be drilled into. This type of product is very useful, but can be challenging to get the balance right.\nAd-hoc requests: should focus on the insight required appropriate to the urgency and complexity of the task. Good practice should still be applied to any tables or visualisations provided and an appropriate level of QA carried out.",
     "crumbs": [
       "Analytical Process",
-      "Final product and review"
+      "Final product, SOP and review"
     ]
   },
   {
-    "objectID": "review.html#final-products-and-review",
-    "href": "review.html#final-products-and-review",
-    "title": "Final product and review",
+    "objectID": "review.html#final-product-and-review",
+    "href": "review.html#final-product-and-review",
+    "title": "Final product, SOP and review",
     "section": "",
     "text": "The final product should be checked that it meets the needs of the original request. This should be done via peer review and also checked with any main stakeholders.\nMore detailed quality assurance is outlined in the QA process, but products to should meet the basic criteria of providing the information required, methods assured, code reviewed, outputs checked against other appropriate data sources and produced with use the of the style guide.\nVisualisations should be clear and focus on providing the insight rather than simply illustrating data. Distinction should be made between products that are made to provide information and those that are designed to provide insight.\nInformation Products: should provide clear navigation of splits of data, if used to provide comparisons, effort should be made to reduce the number of traces on a graph, to ensure columns are ordered, appropriate types of visualisations are utilised. Robust statistical methods should be used to identify trends and outliers.\nReport Products: should focus on analysis and insight into the data. Visualisations should have purpose and be used to support insights. These reports should be kept targeted and linked to information products for further information. Report products should aim to provide recommendations and insights that led to action.\nHybrid Products: it is possible to do both, with a clear summary that provides an overview as well as detail that can be drilled into. This type of product is very useful, but can be challenging to get the balance right.\nAd-hoc requests: should focus on the insight required appropriate to the urgency and complexity of the task. Good practice should still be applied to any tables or visualisations provided and an appropriate level of QA carried out.",
     "crumbs": [
       "Analytical Process",
-      "Final product and review"
+      "Final product, SOP and review"
+    ]
+  },
+  {
+    "objectID": "review.html#cover-sheet",
+    "href": "review.html#cover-sheet",
+    "title": "Final product, SOP and review",
+    "section": "Cover sheet",
+    "text": "Cover sheet\nAnalytical products should contain a cover sheet. This allows for basic metadata about the report to be found and for details such as contact information and quality assurance levels to be recorded.\nAn excel version of the cover sheet can obtained here : excel cover sheet",
+    "crumbs": [
+      "Analytical Process",
+      "Final product, SOP and review"
+    ]
+  },
+  {
+    "objectID": "review.html#sop",
+    "href": "review.html#sop",
+    "title": "Final product, SOP and review",
+    "section": "SOP",
+    "text": "SOP\nUsing this standard SOP template ensures our shared expertise, from data sources and permission paths to version control and update procedures, is clear, repeatable, and accessible to everyone.\nThis documentation connects directly to our Master Product Catalogue. While the catalogue serves as the central inventory of what we deliver, each SOP provides the essential guide for how that specific output is built, refreshed, and maintained.\nEach of us should take active ownership of our processes: keep your documentation fresh using our standardised naming rules, refine it as workflows evolve, and ensure the catalogue is updated with direct links to your SOPs.\nClear documentation safeguards our resilience, reduces avoidable errors, and enables every team member to step in and support one another with ease.",
+    "crumbs": [
+      "Analytical Process",
+      "Final product, SOP and review"
     ]
   },
   {
     "objectID": "review.html#review-cycle",
     "href": "review.html#review-cycle",
-    "title": "Final product and review",
+    "title": "Final product, SOP and review",
     "section": "Review cycle",
-    "text": "Review cycle\nOnce a product is complete and has been signed off for production, a review date should be set with peers and stakeholders.\nThis should check the product is being used, is fit for purpose or requires any updates.\nReviews should be conducted at a an early stage and time between reviews extended over time as the product reaches full maturity.",
+    "text": "Review cycle\nOnce a product is complete and has been signed off for production, a review date should be set with peers and stakeholders.\nThis should check the product is being used, is fit for purpose or requires any updates.\nReviews should be conducted at a an early stage and time between reviews extended over time as the product reaches full maturity.\nThis information should be documented in the product SOP under the Impact & Stakeholder Value Review section.",
     "crumbs": [
       "Analytical Process",
-      "Final product and review"
+      "Final product, SOP and review"
     ]
   },
   {
     "objectID": "review.html#lessons-learned",
     "href": "review.html#lessons-learned",
-    "title": "Final product and review",
+    "title": "Final product, SOP and review",
     "section": "Lessons Learned",
-    "text": "Lessons Learned\nKey lessons learned should be docmented in the lessons learn log. (To be updated)",
+    "text": "Lessons Learned\nKey lessons learned should be documented in the lessons learn log. (To be updated)",
     "crumbs": [
       "Analytical Process",
-      "Final product and review"
+      "Final product, SOP and review"
     ]
   },
   {
@@ -100,17 +122,6 @@
     "title": "Start of QA Process",
     "section": "",
     "text": "Before starting a piece of analysis, you should run a requirement analysis and consider how you are going to provide insights to support the request. This is a great place to start the quality assurance process and discuss your proposed methodology with your peers to ensure that:\n\nYou are using an appropriate method\nConfirm that what you are considering will meet the requirements\nUnderstand if there is wider support from the team to support your analysis\n\nGetting an appropriate peer review at this stage, allows for wider team planning and for any required support to be assigned. It means that the scope of the analysis can be defined and timelines, outputs and methods can be assured from the start.",
-    "crumbs": [
-      "Analytical Process",
-      "Start of QA Process"
-    ]
-  },
-  {
-    "objectID": "qa_start.html#start-of-the-qa-process",
-    "href": "qa_start.html#start-of-the-qa-process",
-    "title": "Start of QA Process",
-    "section": "",
-    "text": "Before writing a piece of code you should run a requirement analysis and consider how you are going to provide insights to support the request. This is a great place to start the quality assurance process and discuss your proposed methodology with your peers to ensure that:\n\nYou are using an appropriate method\nConfirm that what you are considering will meet the requirements\nUnderstand if there is wider support from the team to support your analysis\n\nGetting an appropriate review at this stage, allows for wider team planning and for any required support to be assigned. It means that the scope of the analysis can be defined and timelines, outputs and methods can be assured from the start.",
     "crumbs": [
       "Analytical Process",
       "Start of QA Process"
@@ -128,17 +139,6 @@
     ]
   },
   {
-    "objectID": "qa_output_proc.html#step-3-identify-output-tier",
-    "href": "qa_output_proc.html#step-3-identify-output-tier",
-    "title": "Step 3 Identify Output ‘Tier’",
-    "section": "",
-    "text": "The evidence is strong, the reasoning is sound, and any important assumptions, uncertainties or limitations are clearly explained. A decision-maker should not need to do substantial additional analysis before relying on it.\nExample: The data is good quality, the analysis has been thoroughly checked, and there are no known issues that would materially affect the conclusion.\n\n\n\n\nThe analysis provides a sound basis for understanding the question, but there are some gaps, uncertainties or data issues that should be considered. Some additional checking or interpretation may be needed before using it for an important decision.\nExample: There are some known data-quality issues that reduce confidence in the findings, but the overall analysis remains useful.\n\n\n\n\nThe analysis highlights relevant findings or patterns, but there are important gaps, limitations or uncertainties. It should be treated as a starting point for further analysis rather than as a final answer.\nExample: A quick analysis using data with known quality issues, without the more thorough checks or statistical analysis needed to support a firm conclusion",
-    "crumbs": [
-      "Quality Assurance",
-      "Step 3 Identify Output 'Tier'"
-    ]
-  },
-  {
     "objectID": "qa_intro.html",
     "href": "qa_intro.html",
     "title": "Introduction to Quality Assurance Process",
@@ -150,33 +150,11 @@
     ]
   },
   {
-    "objectID": "qa_intro.html#introduction-to-quality-assurance-process",
-    "href": "qa_intro.html#introduction-to-quality-assurance-process",
-    "title": "Introduction to Quality Assurance Process",
-    "section": "",
-    "text": "This analytical Quality Assurance (QA) process is designed to ensure we have consistency in the way that analysis and outputs are assured for accuracy, reliability and value.\nIt is designed to be light-touch: there are clear principles that apply to everything we do, and with a proportionate approach.\nThe principles should be applied to all work, although the level of input and sign-off required is based on a tiered, risk-based assessment.\nIt is important to ensure that there is a clear distinction between level of process (High/Medium/Low) and assurance of the outputs (Gold/Silver/Bronze).\nWith regards to the process it will help to ensure products:\n\nMet the requirements set out\nAre contextual and aligned with wider priorities and factors\nAre representative of our team’s identity, and contribute effectively to the sum of our output\nProvide the most value possible\nCan be maintained or reproduced with resilience\n\nWith regards to the outputs it will help to ensure that:\n\nThe accuracy and any limitations are known\nThe degree of reliability the analysis has is known\nThe level of confidence in using this analysis a stakeholder should have is known\nThis process is expected to evolve over time and will flex and adapt as required",
-    "crumbs": [
-      "Quality Assurance",
-      "Introduction to Quality Assurance Process"
-    ]
-  },
-  {
     "objectID": "qa_actions.html",
     "href": "qa_actions.html",
     "title": "Step 2 QA Actions",
     "section": "",
-    "text": "This is a non exhaustive list of the types of actions covered in quality assurance. Higher tiers should include checks from lower stages.\n\nLow (to be carried by peer review)\n\nOverall ‘sense checks’/spot-checking including conditional formatting and formulas\nNarrative is clear, concise and answers the question asked. Spelling/grammar is professional\nStyling is consistent with team style guide\nKey information is documented – such as source, dates etc.\nAny statements referencing numbers are true and accurate\nCompare recently produced figures to historic QA figures, by cross checking results against other data sources available\nInclusion of the QA information at the front of the report/product cover page or meta data\nInclusion of QA Output level with appropriate caveats (Gold/Silver/Bronze)\n\n\n\nMedium (to be carried out by peer, with line manager or equivalent oversight)\n\nAppropriate checking of data sources / wider contextual factors\nReview of code/syntax where relevant (GitHub recommended). Review of calculations / formula\nAnalytical/statistical methods are appropriately selected, applied and interpreted\n\n\n\nHigh (to be carried out by peer, with line manager oversight and SLT sign-off)\n\nComplete verification of source data against available information or appropriate QA statement from data provider to give assurance of quality\nGold checks should be undertaken by two or more analysts not involved in the creation of the original analysis.\nSufficient time should be allocated to a project, for completion of ‘Gold’ standard checks.\n\n\n\n\n\n\n\nImportantImportant\n\n\n\nNote for any analysis being sent to Execs this should be reviewed by SLT regardless of tier.",
-    "crumbs": [
-      "Quality Assurance",
-      "Step 2 QA Actions"
-    ]
-  },
-  {
-    "objectID": "qa_actions.html#step-2-qa-actions",
-    "href": "qa_actions.html#step-2-qa-actions",
-    "title": "Step 2 QA Actions",
-    "section": "",
-    "text": "Overall ‘sense checks’/spot-checking including conditional formatting and formulas\nNarrative is clear, concise and answers the question asked. Spelling/grammar is professional\nStyling is consistent with team style guide\nKey information is documented – such as source, dates etc.\nAny statements referencing numbers are true and accurate\nCompare recently produced figures to historic QA figures, by cross checking results against other data sources available\nInclusion of the QA information at the front of the report/product cover page or meta data\nInclusion of QA Output level with appropriate caveats (Gold/Silver/Bronze)\n\n\n\n\n\nAppropriate checking of data sources / wider contextual factors\nReview of code/syntax where relevant (GitHub recommended). Review of calculations / formula\nAnalytical/statistical methods are appropriately selected, applied and interpreted\n\n\n\n\n\nComplete verification of source data against available information or appropriate QA statement from data provider to give assurance of quality\nGold checks should be undertaken by two or more analysts not involved in the creation of the original analysis.\nSufficient time should be allocated to a project, for completion of ‘Gold’ standard checks.\n\n\n\n\n\n\n\nImportantImportant\n\n\n\nNote for any analysis being sent to Execs this should be reviewed by SLT regardless of tier.",
+    "text": "This is a non exhaustive list of the types of actions covered in quality assurance. Higher tiers should include checks from lower stages.\n\nLow (to be carried out by peer review)\n\nOverall ‘sense checks’/spot-checking including conditional formatting and formulas\nNarrative is clear, concise and answers the question asked. Spelling/grammar is professional\nStyling is consistent with team style guide\nKey information is documented – such as source, dates etc.\nAny statements referencing numbers are true and accurate\nCompare recently produced figures to historic QA figures, by cross checking results against other data sources available\nInclusion of the QA information at the front of the report/product cover page or meta data\nInclusion of QA Output level with appropriate caveats (Gold/Silver/Bronze)\n\n\n\nMedium (to be carried out by peer, with line manager or equivalent oversight)\n\nAppropriate checking of data sources / wider contextual factors\nReview of code/syntax where relevant (GitHub recommended). Review of calculations / formula\nAnalytical/statistical methods are appropriately selected, applied and interpreted\n\n\n\nHigh (to be carried out by peer, with line manager oversight and SLT sign-off)\n\nComplete verification of source data against available information or appropriate QA statement from data provider to give assurance of quality\nGold checks should be undertaken by two or more analysts not involved in the creation of the original analysis.\nSufficient time should be allocated to a project, for completion of ‘Gold’ standard checks.\n\n\n\n\n\n\n\nImportantImportant\n\n\n\nNote for any analysis being sent to senior colleagues (executives and other senior managers) this should be reviewed by SLT regardless of tier.",
     "crumbs": [
       "Quality Assurance",
       "Step 2 QA Actions"
@@ -736,11 +714,11 @@
     ]
   },
   {
-    "objectID": "qa_tiers.html#step-1-identify-process-tier",
-    "href": "qa_tiers.html#step-1-identify-process-tier",
+    "objectID": "qa_tiers.html#process-levels",
+    "href": "qa_tiers.html#process-levels",
     "title": "Step 1: Identify Process “Tier”",
     "section": "",
-    "text": "Process Levels – Examples, non-exhaustive list; If in doubt, please discuss with your line manager/SLT Key indicator of the correct tier is the audience / purpose, rather than the type / nature of work\n\n\nAny information to be published, put into the public domain or used by the media / NHSE communications teams\nData / reports / dashboards potentially accessible by a wide audience through a ‘front door’ platform (such as through FutureNHS / FDP landing page, etc.)\nFreedom of Information Request / Information required for parliamentary questions\nData or analysis to be used for strategic, operational or policy-making decisions\nData to be used for financial purposes or investment in services\nKey consideration: Moderate/Severe risk of harm if used for decision-making. Would have a negative reputational impact on the organisation or I&I, should incorrect / misleading information be shared\n\n\n\n\nChanges to existing routine reports / dashboards (previously gold QA) e.g. new measures developed or changes in data sources\nAnalysis for internal stakeholder use where likely to be shared externally (but within the NHS), such as to support performance or programme conversations, data quality improvements etc\nAnalysis where additional complexity, such as statistical methodology or forecasting, is present\nKey consideration: Minor risk of harm if used for decision-making. Would have a negative reputational impact on I&I colleagues, should incorrect / misleading information be shared\n\n\n\n\nAll regular updates and refreshes to established, routine work (where previously silver or gold) with no significant changes to previous iterations. This includes regular QA-ing of fully automated processes\nSuitable for internal audiences where data is used for headline figures for meetings, initial findings and approximate calculations (doesn’t necessitate high level of QA or data was needed in short time, so comprehensive QA was not possible) Please make it clear on the reports sent out, that a comprehensive QA was not possible at the time of sending\n‘First Cut’ data produced for meetings, to inform discussion and clarification from team members or stakeholders\nWork shared with other analysts to showcase work and for training purposes\nKey considerations: Negligible risk of harm if used for decision-making. Would have a negative reputational impact for the analyst, if incorrect / misleading information be shared",
+    "text": "Examples, non-exhaustive list; If in doubt, please discuss with your line manager / SLT\nKey indicator of the correct tier is the audience / purpose, rather than the type / nature of work\n\n\nAny information to be published, put into the public domain or used by the media / NHSE communications teams\nData / reports / dashboards potentially accessible by a wide audience through a ‘front door’ platform (such as through FutureNHS / FDP landing page, etc.)\nFreedom of Information Request / Information required for parliamentary questions\nData or analysis to be used for strategic, operational or policy-making decisions\nData to be used for financial purposes or investment in services\nKey consideration: Moderate/Severe risk of harm if used for decision-making. Would have a negative reputational impact on the organisation or I&I, should incorrect / misleading information be shared\n\n\n\n\nChanges to existing routine reports / dashboards (previously gold QA) e.g. new measures developed or changes in data sources\nAnalysis for internal stakeholder use where likely to be shared externally (but within the NHS), such as to support performance or programme conversations, data quality improvements etc\nAnalysis where additional complexity, such as statistical methodology or forecasting, is present\nKey consideration: Minor risk of harm if used for decision-making. Would have a negative reputational impact on I&I colleagues, should incorrect / misleading information be shared\n\n\n\n\nAll regular updates and refreshes to established, routine work (where previously silver or gold) with no significant changes to previous iterations. This includes regular QA-ing of fully automated processes\nSuitable for internal audiences where data is used for headline figures for meetings, initial findings and approximate calculations (doesn’t necessitate high level of QA or data was needed in short time, so comprehensive QA was not possible) Please make it clear on the reports sent out, that a comprehensive QA was not possible at the time of sending\n‘First Cut’ data produced for meetings, to inform discussion and clarification from team members or stakeholders\nWork shared with other analysts to showcase work and for training purposes\nKey considerations: Negligible risk of harm if used for decision-making. Would have a negative reputational impact for the analyst, if incorrect / misleading information be shared",
     "crumbs": [
       "Quality Assurance",
       "Step 1: Identify Process “Tier”"
@@ -854,17 +832,6 @@
     "crumbs": [
       "About",
       "Terms and conditions"
-    ]
-  },
-  {
-    "objectID": "qa_tiers.html#process-levels",
-    "href": "qa_tiers.html#process-levels",
-    "title": "Step 1: Identify Process “Tier”",
-    "section": "",
-    "text": "Examples, non-exhaustive list; If in doubt, please discuss with your line manager / SLT\nKey indicator of the correct tier is the audience / purpose, rather than the type / nature of work\n\n\nAny information to be published, put into the public domain or used by the media / NHSE communications teams\nData / reports / dashboards potentially accessible by a wide audience through a ‘front door’ platform (such as through FutureNHS / FDP landing page, etc.)\nFreedom of Information Request / Information required for parliamentary questions\nData or analysis to be used for strategic, operational or policy-making decisions\nData to be used for financial purposes or investment in services\nKey consideration: Moderate/Severe risk of harm if used for decision-making. Would have a negative reputational impact on the organisation or I&I, should incorrect / misleading information be shared\n\n\n\n\nChanges to existing routine reports / dashboards (previously gold QA) e.g. new measures developed or changes in data sources\nAnalysis for internal stakeholder use where likely to be shared externally (but within the NHS), such as to support performance or programme conversations, data quality improvements etc\nAnalysis where additional complexity, such as statistical methodology or forecasting, is present\nKey consideration: Minor risk of harm if used for decision-making. Would have a negative reputational impact on I&I colleagues, should incorrect / misleading information be shared\n\n\n\n\nAll regular updates and refreshes to established, routine work (where previously silver or gold) with no significant changes to previous iterations. This includes regular QA-ing of fully automated processes\nSuitable for internal audiences where data is used for headline figures for meetings, initial findings and approximate calculations (doesn’t necessitate high level of QA or data was needed in short time, so comprehensive QA was not possible) Please make it clear on the reports sent out, that a comprehensive QA was not possible at the time of sending\n‘First Cut’ data produced for meetings, to inform discussion and clarification from team members or stakeholders\nWork shared with other analysts to showcase work and for training purposes\nKey considerations: Negligible risk of harm if used for decision-making. Would have a negative reputational impact for the analyst, if incorrect / misleading information be shared",
-    "crumbs": [
-      "Quality Assurance",
-      "Step 1: Identify Process “Tier”"
     ]
   }
 ]

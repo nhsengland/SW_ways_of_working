@@ -25,6 +25,8 @@ Analytical products should contain a cover sheet. This allows for basic metadata
 
 An excel version of the cover sheet can obtained here : [excel cover sheet](https://nhs.sharepoint.com/:x:/r/sites/InsightsIntelligenceteam/_layouts/15/Doc.aspx?sourcedoc=%7B4020b094-7cb4-40a4-8115-061e07ee642d%7D&action=edit&wdenableroaming=1&wdlcid=en-GB&wdorigin=TEAMS-MAGLEV.null_ns.rwc.Sharing.DirectLink.Copy.LOF&wdexp=TEAMS-TREATMENT&wdhostclicktime=1792576631535&wdredirectionreason=Force_SingleStepBoot&wdinitialsession=2c3bfdc8-18a2-58a3-d977-70311c150b8b&wdrldsc=2&wdrldc=1&wdrldr=ContinueInExcel)
 
+A markdown version of the cover sheet can be found here : [markdown cover sheet](https://github.com/nhsengland/sw_cover_sheet)
+
 ## SOP
 
 Using this standard [SOP template](https://nhs.sharepoint.com/:w:/r/sites/InsightsIntelligenceteam/Shared%20Documents/01%20-%20Analysis/10%20-%20Data%20%26%20Infrastructure/04%20-%20Reporting%20%26%20Publications/01%20-%20Product%20Catalogue/SOP%20Template%20-%20Master.docx?d=wc5adcc742e3b47ceb819ef34ccecc153&csf=1&web=1&e=e2qh2c) ensures our shared expertise, from data sources and permission paths to version control and update procedures, is clear, repeatable, and accessible to everyone.
@@ -34,6 +36,22 @@ This documentation connects directly to our [Master Product Catalogue](https://n
 Each of us should take active ownership of our processes: keep your documentation fresh using our standardised naming rules, refine it as workflows evolve, and ensure the catalogue is updated with direct links to your SOPs.
 
 Clear documentation safeguards our resilience, reduces avoidable errors, and enables every team member to step in and support one another with ease.
+
+## Futures Workspace
+
+The I&I Team Futures site is the front door for stakeholders to find the majority of the products and reports they will need for self-service reporting purposes. The requirements will be either:  
+
+1.	They are already aware of a report or dashboard and need to access it regularly  
+
+2.	They are not aware of existing dashboards but should be able to easily establish (and find) whether something exists that will suit their requirements  
+
+Ad-hoc analyses, produced in response to a specific request, should not ordinarily be made available via Futures, unless there would be benefit in sharing the output more widely.  
+
+Most I&I Futures pages are discoverable to anybody in the NHS with a Futures account - which means that the information contained on the pages should be accurate, clear and concise, and understandable to those who might find the page accidentally. This prevents inappropriate access requests and reduces requests for signposting / further information.   
+
+(Note that the actual reports and dashboards have separate access permissions) 
+
+More detail on the structure of Futures pages can be found here [Link to sharepoint Furtures Instructons](https://nhs.sharepoint.com/:p:/r/sites/InsightsIntelligenceteam/_layouts/15/Doc.aspx?sourcedoc=%7BC3F1AFF7-AAC4-4280-97CB-1833D52492A0%7D&file=FUTURES%20Workspace%20design.pptx&action=edit&mobileredirect=true)
 
 ## Review cycle
 

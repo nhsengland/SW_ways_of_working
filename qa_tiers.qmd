@@ -9,7 +9,7 @@ Examples, non-exhaustive list; If in doubt, please discuss with your line manage
 
 Key indicator of the correct tier is the audience / purpose, rather than the type / nature of work
 
-::: {style="background-color: #bee5b0; corder-radius: 5px; padding: 20px;"}
+::: {style="background-color: #bee5b0; border-radius: 5px; padding: 20px;"}
 ### HIGH
 
 Any information to be published, put into the public domain or used by the media / NHSE communications teams
@@ -27,7 +27,7 @@ Data to be used for financial purposes or investment in services
 
 ------------------------------------------------------------------------
 
-::: {style="background-color: #a7c7e7; corder-radius: 5px; padding: 20px;"}
+::: {style="background-color: #a7c7e7; border-radius: 5px; padding: 20px;"}
 ### MEDIUM
 
 Changes to existing routine reports / dashboards (previously gold QA) e.g. new measures developed or changes in data sources
@@ -41,7 +41,7 @@ Analysis where additional complexity, such as statistical methodology or forecas
 
 ------------------------------------------------------------------------
 
-::: {style="background-color: #ffffcc; corder-radius: 5px; padding: 20px;"}
+::: {style="background-color: #ffffcc; border-radius: 5px; padding: 20px;"}
 ### LOW
 
 All regular updates and refreshes to established, routine work (where previously silver or gold) with no significant changes to previous iterations. This includes regular QA-ing of fully automated processes

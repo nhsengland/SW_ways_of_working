@@ -3,14 +3,22 @@ title: "Start of QA Process"
 editor: visual
 ---
 
-Before starting a piece of analysis, you should run a requirement analysis and consider how you are going to provide insights to support the request.  This is a great place to start the quality assurance process and discuss your proposed methodology with your peers to ensure that:
+Before starting a piece of analysis, you should run a requirement analysis and consider how you are going to provide insights to support the request. This is a great place to start the quality assurance process and discuss your proposed methodology with your peers to ensure that:
 
-* You are using an appropriate method
+- You are using an appropriate method
 
-* Confirm that what you are considering will meet the requirements
+- Confirm that what you are considering will meet the requirements
 
-* Understand if there is wider support from the team to support your analysis
+- Understand if there is wider support from the team to support your analysis
 
-Getting an appropriate peer review at this stage, allows for wider team planning and for any required support to be assigned. It means that the scope of the analysis can be defined and timelines, outputs and methods can be assured from the start. 
+Getting an appropriate peer review at this stage, allows for wider team planning and for any required support to be assigned. It means that the scope of the analysis can be defined and timelines, outputs and methods can be assured from the start.
 
+**Use of AI and LLMs**
 
+Use of AI as a tool to support coding and analysis is encouraged.  However AI is simply a tool and the analyst ultimate holds responsibility for any outputs.  It is advised that all team members familiarise themselves with what an Enterprise AI is, and what can and can not be shared with LLMs regarding data and analysis.   
+
+Further information can be found within [NHS Englands Use of AI Policy](https://nhs.sharepoint.com/sites/CIG/SiteAssets/Forms/AllItems.aspx?id=%2Fsites%2FCIG%2FSiteAssets%2FSitePages%2FHome%2F20251216%2DGenerative%2DAI%2DGuidance%2Dv1%2E0%2Epdf&parent=%2Fsites%2FCIG%2FSiteAssets%2FSitePages%2FHome)
+
+Details around use of AI within FDP can be found here [FDP AI Safe Use](https://guide.england.federateddataplatform.nhs.uk/standards/ai-safe-use)
+
+Details for training in use of AI within FDP can be found here [FDP AI Training](https://guide.england.federateddataplatform.nhs.uk/learn/ai-tools)
