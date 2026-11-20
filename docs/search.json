@@ -37,7 +37,7 @@
     "href": "updates.html#to-update-a-page",
     "title": "Page updates",
     "section": "To update a page",
-    "text": "To update a page\nEnsure you have the latest version of the pages that match those on Github.\nClick on Git tab in R studio\n\nTo do this click Pull\n\n\n\n\n\n\nTip\n\n\n\nIf this your first time connecting, it may ask for username and password. This may open in a new window, which sometimes sits behind other programs, please check your task bar.\n\n\nThis will update your local files and sync them to the master on Github\nUpdate your local version of the .qmd file and save\nClick on Git tab in R studio\nClick on staged file you wish to update.\nClick Push update page to git\nThis process updates the underlying qmd files\nYou will then need to update the rendered HTML pages\nYo do click click on the Terminal and type\nquarto publish gh-pages\n\n\n\n\n\nflowchart LR\nA[Pull] --&gt; B[Update .qmd]\nB --&gt; C[Commit]\nC --&gt; D[Push]",
+    "text": "To update a page\nEnsure you have the latest version of the pages that match those on Github.\nClick on Git tab in R studio\n\nTo do this click Pull\n\n\n\n\n\n\nTip\n\n\n\nIf this your first time connecting, it may ask for username and password. This may open in a new window, which sometimes sits behind other programs, please check your task bar.\n\n\nThis will update your local files and sync them to the master on Github\nUpdate your local version of the .qmd file and save\nClick on Git tab in R studio\nClick on staged file you wish to update.\nClick Push update page to git\nThis process updates the underlying qmd files\nYou will then need to update the rendered HTML pages\nYo do click click on the Terminal and type\nquarto publish gh-pages\n\n\n\n\n\n\nflowchart LR\nA[Pull] --&gt; B[Update .qmd]\nB --&gt; C[Commit]\nC --&gt; D[Push]",
     "crumbs": [
       "About",
       "Page updates"
@@ -77,7 +77,7 @@
     "href": "review.html#cover-sheet",
     "title": "Final product, SOP and review",
     "section": "Cover sheet",
-    "text": "Cover sheet\nAnalytical products should contain a cover sheet. This allows for basic metadata about the report to be found and for details such as contact information and quality assurance levels to be recorded.\nAn excel version of the cover sheet can obtained here : excel cover sheet",
+    "text": "Cover sheet\nAnalytical products should contain a cover sheet. This allows for basic metadata about the report to be found and for details such as contact information and quality assurance levels to be recorded.\nAn excel version of the cover sheet can obtained here : excel cover sheet\nA markdown version of the cover sheet can be found here : markdown cover sheet",
     "crumbs": [
       "Analytical Process",
       "Final product, SOP and review"
@@ -89,6 +89,17 @@
     "title": "Final product, SOP and review",
     "section": "SOP",
     "text": "SOP\nUsing this standard SOP template ensures our shared expertise, from data sources and permission paths to version control and update procedures, is clear, repeatable, and accessible to everyone.\nThis documentation connects directly to our Master Product Catalogue. While the catalogue serves as the central inventory of what we deliver, each SOP provides the essential guide for how that specific output is built, refreshed, and maintained.\nEach of us should take active ownership of our processes: keep your documentation fresh using our standardised naming rules, refine it as workflows evolve, and ensure the catalogue is updated with direct links to your SOPs.\nClear documentation safeguards our resilience, reduces avoidable errors, and enables every team member to step in and support one another with ease.",
+    "crumbs": [
+      "Analytical Process",
+      "Final product, SOP and review"
+    ]
+  },
+  {
+    "objectID": "review.html#futures-workspace",
+    "href": "review.html#futures-workspace",
+    "title": "Final product, SOP and review",
+    "section": "Futures Workspace",
+    "text": "Futures Workspace\nThe I&I Team Futures site is the front door for stakeholders to find the majority of the products and reports they will need for self-service reporting purposes. The requirements will be either:\n\nThey are already aware of a report or dashboard and need to access it regularly\nThey are not aware of existing dashboards but should be able to easily establish (and find) whether something exists that will suit their requirements\n\nAd-hoc analyses, produced in response to a specific request, should not ordinarily be made available via Futures, unless there would be benefit in sharing the output more widely.\nMost I&I Futures pages are discoverable to anybody in the NHS with a Futures account - which means that the information contained on the pages should be accurate, clear and concise, and understandable to those who might find the page accidentally. This prevents inappropriate access requests and reduces requests for signposting / further information.\n(Note that the actual reports and dashboards have separate access permissions)\nMore detail on the structure of Futures pages can be found here Link to sharepoint Furtures Instructons",
     "crumbs": [
       "Analytical Process",
       "Final product, SOP and review"
@@ -121,7 +132,7 @@
     "href": "qa_start.html",
     "title": "Start of QA Process",
     "section": "",
-    "text": "Before starting a piece of analysis, you should run a requirement analysis and consider how you are going to provide insights to support the request. This is a great place to start the quality assurance process and discuss your proposed methodology with your peers to ensure that:\n\nYou are using an appropriate method\nConfirm that what you are considering will meet the requirements\nUnderstand if there is wider support from the team to support your analysis\n\nGetting an appropriate peer review at this stage, allows for wider team planning and for any required support to be assigned. It means that the scope of the analysis can be defined and timelines, outputs and methods can be assured from the start.",
+    "text": "Before starting a piece of analysis, you should run a requirement analysis and consider how you are going to provide insights to support the request. This is a great place to start the quality assurance process and discuss your proposed methodology with your peers to ensure that:\n\nYou are using an appropriate method\nConfirm that what you are considering will meet the requirements\nUnderstand if there is wider support from the team to support your analysis\n\nGetting an appropriate peer review at this stage, allows for wider team planning and for any required support to be assigned. It means that the scope of the analysis can be defined and timelines, outputs and methods can be assured from the start.\nUse of AI and LLMs\nUse of AI as a tool to support coding and analysis is encouraged. However AI is simply a tool and the analyst ultimate holds responsibility for any outputs. It is advised that all team members familiarise themselves with what an Enterprise AI is, and what can and can not be shared with LLMs regarding data and analysis.\nFurther information can be found within NHS Englands Use of AI Policy\nDetails around use of AI within FDP can be found here FDP AI Safe Use\nDetails for training in use of AI within FDP can be found here FDP AI Training",
     "crumbs": [
       "Analytical Process",
       "Start of QA Process"
@@ -165,7 +176,7 @@
     "href": "overview_chart.html",
     "title": "Overview",
     "section": "",
-    "text": "An overview of the analytical process\nHOLDING CHART\nThis chart is simply a placeholder. Real flowchart will come once analyical process document has been completed.\n\n\n\n\n\nflowchart TD\n  A(Starting the Analytical Process) --&gt; B(QA Data and Results)\n  A --&gt; C[Defining the anlytical question]\n  A --&gt; DStart of QA Process]\n  B -----&gt; E(Final product and review)\n  B --&gt; G[Coding Principles]\n  G --&gt; H[GitHub Training]\n  G --&gt; I[QA Code Checklist]\n  H --&gt; J[Github Template]\n  E --&gt; K[QA Output and Review]\n  K --&gt; L(Review)"
+    "text": "An overview of the analytical process\nHOLDING CHART\nThis chart is simply a placeholder. Real flowchart will come once analyical process document has been completed.\n\n\n\n\n\n\nflowchart TD\n  A(Starting the Analytical Process) --&gt; B(QA Data and Results)\n  A --&gt; C[Defining the anlytical question]\n  A --&gt; DStart of QA Process]\n  B -----&gt; E(Final product and review)\n  B --&gt; G[Coding Principles]\n  G --&gt; H[GitHub Training]\n  G --&gt; I[QA Code Checklist]\n  H --&gt; J[Github Template]\n  E --&gt; K[QA Output and Review]\n  K --&gt; L(Review)"
   },
   {
     "objectID": "git_train.html",

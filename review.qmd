@@ -51,7 +51,7 @@ Most I&I Futures pages are discoverable to anybody in the NHS with a Futures acc
 
 (Note that the actual reports and dashboards have separate access permissions) 
 
-More detail on the structure of Futures pages can be found here [Link to sharepoint Furtures Instructons](https://nhs.sharepoint.com/:p:/r/sites/InsightsIntelligenceteam/_layouts/15/Doc.aspx?sourcedoc=%7BC3F1AFF7-AAC4-4280-97CB-1833D52492A0%7D&file=FUTURES%20Workspace%20design.pptx&action=edit&mobileredirect=true)
+More detail on the structure of Futures pages can be found here [Link to sharepoint Futures Instructions](https://nhs.sharepoint.com/:p:/r/sites/InsightsIntelligenceteam/_layouts/15/Doc.aspx?sourcedoc=%7BC3F1AFF7-AAC4-4280-97CB-1833D52492A0%7D&file=FUTURES%20Workspace%20design.pptx&action=edit&mobileredirect=true)
 
 ## Review cycle
 
